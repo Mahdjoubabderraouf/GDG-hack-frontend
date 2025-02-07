@@ -52,13 +52,12 @@ function LoginPage() {
 
       // Save token or user data to localStorage/sessionStorage
       localStorage.setItem("token", token);
-      
-     
+
       if (data.status.data.role == "veilleur") {
         navigate("/veilleur/searching");
-      }else if (data.status.data.role == "decideur") {
+      } else if (data.status.data.role == "decideur") {
         navigate("/decideur");
-      }else if (data.status.data.role == "analyste") {
+      } else if (data.status.data.role == "analyste") {
         navigate("/analyste/analyzing");
       }
     } catch (error) {
@@ -71,7 +70,6 @@ function LoginPage() {
       <div className="flex items-center justify-center shadow-md bg-[#fbfbfb] rounded-3xl">
         <div className="flex flex-col justify-center px-8 md:px-16 py-12">
           <div className="mx-auto max-w-md">
-            
             <h2 className="tracking-tight">Get Started Now</h2>
 
             <p className="text-sm mt-2 font-bold">
@@ -134,7 +132,7 @@ function LoginPage() {
               {!loading && (
                 <Button
                   onClick={handleLogin}
-                  className="w-full bg-[#E2FE53] hover:bg-[#d4ef4d] text-black font-semibold"
+                  className="w-full bg-first  text-black font-semibold"
                 >
                   Login
                 </Button>

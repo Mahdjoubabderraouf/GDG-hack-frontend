@@ -1,5 +1,5 @@
 import { SidebarTrigger } from "@/components/ui/sidebar";
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import notification from "@/assets/notification.svg";
 import help from "@/assets/help.svg";
 import { Button } from "@/components/ui/button";
@@ -10,17 +10,16 @@ function Header() {
   const [user, setUser] = useState("Undefined");
   const [role, setRole] = useState("Undefined");
   const [date, setDate] = useState(new Date().toDateString());
-  
+
   useEffect(() => {
     const fetchData = async () => {
       try {
-        
         const token = localStorage.getItem("token");
         const response = await fetch("http://localhost:3000/member_details", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
-            Authorization: token , // Add the Authorization header
+            Authorization: token, // Add the Authorization header
           },
         });
 
@@ -29,7 +28,7 @@ function Header() {
         }
 
         const data = await response.json();
-        console.log(data.name)
+        console.log(data.name);
         setUser(data.name);
         setRole(data.role);
       } catch (error) {
@@ -39,8 +38,6 @@ function Header() {
 
     fetchData();
   }, []);
-
-  
 
   return (
     <div className="flex p-5 gap-5 items-center w-full justify-between">
