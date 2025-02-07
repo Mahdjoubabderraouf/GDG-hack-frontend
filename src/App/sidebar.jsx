@@ -1,4 +1,4 @@
-import { FileText, Headphones, LogOut, Search, Settings } from "lucide-react";
+import { FileText, LogOut, Search } from "lucide-react";
 
 import {
   Sidebar,
@@ -17,39 +17,7 @@ import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { Active } from "@/App";
 
-const navigation = {
-  general: [
-    {
-      title: "Searching",
-      icon: Search,
-      url: "/veilleur/searching"
-    },
-    {
-      title: "Results",
-      icon: FileText,
-      url: "/veilleur/results"
-    }
-  ],
-  support: [
-    {
-      title: "Settings",
-      icon: Settings,
-      url: "#"
-    },
-    {
-      title: "Help center",
-      icon: Headphones,
-      url: "#"
-    }
-  ],
-  logout: {
-    title: "Log out",
-    icon: LogOut,
-    url: "#"
-  }
-};
-
-export default function AppSidebar({}) {
+export default function AppSidebar({ general }) {
   const { activeItem, setActiveItem } = useContext(Active);
   const navigate = useNavigate();
 
@@ -79,6 +47,33 @@ export default function AppSidebar({}) {
       alert(error.message);
     }
   };
+  const navigation = [
+    {
+      role: "HR Manager",
+      Links: [
+        {
+          title: "Event",
+          icon: Search,
+          url: "event"
+        },
+        {
+          title: "Track members",
+          icon: FileText,
+          url: "members"
+        }
+      ]
+    },
+    {
+      role: "co-manager",
+      Links: [
+        {
+          title: "Track membrs",
+          icon: Search,
+          url: "#"
+        }
+      ]
+    }
+  ];
   return (
     <Sidebar className="text-black font-bold">
       <SidebarHeader className="pb-4 pt-5">
@@ -95,11 +90,11 @@ export default function AppSidebar({}) {
           </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
-              {navigation.general.map((item) => (
+              {navigation[0].Links.map((item) => (
                 <SidebarMenuItem key={item.title}>
                   <SidebarMenuButton
                     asChild
-                    onClick={() => handleClick(item.title)} // Set active item on click
+                    onClick={() => handleClick(item.url)} // Set active item on click
                     className={`gap-3 rounded-lg px-2 hover:bg-gray-100 font-bold text-black ${
                       activeItem === item.title ? "bg-first hover:bg-first" : ""
                     }`}
@@ -116,42 +111,17 @@ export default function AppSidebar({}) {
         </SidebarGroup>
 
         <SidebarGroup className="mt-4">
-          <SidebarGroupLabel className="px-2 text-sm font-bold text-black">
-            Support
-          </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
-              {navigation.support.map((item) => (
-                <SidebarMenuItem key={item.title}>
-                  <SidebarMenuButton
-                    asChild
-                    onClick={() => handleClick(item.title)} // Set active item on click
-                    className={`gap-3 rounded-lg px-2 hover:bg-gray-100 font-bold text-black ${
-                      activeItem === item.title ? "bg-first hover:bg-first" : ""
-                    }`}
-                  >
-                    <button>
-                      <item.icon className="h-5 w-5" />
-                      <span>{item.title}</span>
-                    </button>
-                  </SidebarMenuButton>
-                </SidebarMenuItem>
-              ))}
-            </SidebarMenu>
-          </SidebarGroupContent>
-        </SidebarGroup>
-        <SidebarGroup className="mt-4">
-          <SidebarGroupContent>
-            <SidebarMenu>
-              <SidebarMenuItem key={navigation.logout.title}>
+              <SidebarMenuItem>
                 <SidebarMenuButton
                   asChild
                   onClick={HandleLogOut}
                   className="gap-3 rounded-lg px-2 hover:bg-gray-100 font-bold text-black"
                 >
                   <button>
-                    <navigation.logout.icon className="h-5 w-5" />
-                    <span>{navigation.logout.title}</span>
+                    <LogOut className="h-5 w-5" />
+                    <span>Log Out</span>
                   </button>
                 </SidebarMenuButton>
               </SidebarMenuItem>

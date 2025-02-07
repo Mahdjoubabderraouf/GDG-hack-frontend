@@ -1,5 +1,6 @@
 import { SidebarTrigger } from "@/components/ui/sidebar";
 import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import notification from "@/assets/notification.svg";
 import help from "@/assets/help.svg";
 import { Button } from "@/components/ui/button";
@@ -9,6 +10,7 @@ import { Profile } from "@/components/ui/Profile";
 function Header() {
   const [user, setUser] = useState("Undefined");
   const [role, setRole] = useState("Undefined");
+  const [date, setDate] = useState(new Date().toDateString());
 
   useEffect(() => {
     const fetchData = async () => {
@@ -27,6 +29,7 @@ function Header() {
         }
 
         const data = await response.json();
+        console.log(data.name);
         console.log(data.name);
         setUser(data.name);
         setRole(data.role);

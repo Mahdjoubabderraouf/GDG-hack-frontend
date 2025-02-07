@@ -1,9 +1,8 @@
 import "./App.css";
 import LoginPage from "./App/LoginPage";
 import { Route, Routes } from "react-router-dom";
-import { Dashboard } from "./App/Dashboard";
-
 import { createContext, useState } from "react";
+import Layout from "./App/layout";
 
 export const Active = createContext();
 
@@ -12,14 +11,6 @@ const MainRoute = () => {
     <>
       <h1> Route page / </h1>
       <h5> Login is in the route /login </h5>
-      <h5>
-        {" "}
-        Veilleur is in the route /veilleur/searching or /veilleur/results{" "}
-      </h5>
-      <h5>
-        {" "}
-        Analyste is in the route /analyste/analyzing or /analyste/edit/:idfile{" "}
-      </h5>
     </>
   );
 };
@@ -31,7 +22,10 @@ function App() {
       <Routes>
         <Route exact path="/" element={<MainRoute />} />
         <Route path="/login" element={<LoginPage />} />
-        <Route path="/dashboard" element={<Dashboard />}></Route>
+        <Route path="/hrmanger" element={<Layout />}>
+          <Route path="event" element={<div>First div of hr</div>} />
+          <Route path="members" element={<div>Second div of hr</div>} />
+        </Route>
       </Routes>
     </Active.Provider>
   );
