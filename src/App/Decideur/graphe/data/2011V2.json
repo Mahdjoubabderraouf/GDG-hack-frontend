@@ -1,0 +1,2057 @@
+[
+    {
+        "cveId": "CVE-2011-0091",
+        "datePublished": "2011-02-10T15:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Kerberos in Microsoft Windows Server 2008 R2 and Windows 7 does not prevent a session from changing from strong encryption to DES encryption, which allows man-in-the-middle attackers to spoof network traffic and obtain sensitive information via a DES downgrade, aka \"Kerberos Spoofing Vulnerability.\""
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0111",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0112",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0113",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0114",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0115",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The DOM level 2 implementation in WebKit, as used in Apple iTunes before 10.2 on Windows and Apple Safari, does not properly handle DOM manipulations associated with event listeners during processing of range objects, which allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0116",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Use-after-free vulnerability in the setOuterText method in the htmlelement library in WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to DOM manipulations during iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0117",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0118",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0119",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0120",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0121",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0122",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0123",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0124",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0125",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0126",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0127",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0128",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0129",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0130",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0131",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0132",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Use-after-free vulnerability in the Runin box functionality in the Cascading Style Sheets (CSS) 2.1 Visual Formatting Model implementation in WebKit, as used in Apple iTunes before 10.2 on Windows and Apple Safari, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0133",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, does not properly access glyph data during layout actions for floating blocks associated with pseudo-elements, which allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0134",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0135",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0136",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0137",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0138",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0139",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0140",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0141",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0142",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0143",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0144",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0145",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0146",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0147",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0148",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0149",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, does not properly parse HTML elements associated with document namespaces, which allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to a \"dangling pointer\" and iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0150",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0151",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0152",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0153",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0154",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows and Apple iOS, does not properly implement the .sort function for JavaScript arrays, which allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0155",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0156",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0164",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0165",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0168",
+        "datePublished": "2011-03-03T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0189",
+        "datePublished": "2011-03-23T01:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The default configuration of Terminal in Apple Mac OS X 10.6 before 10.6.7 uses SSH protocol version 1 within the New Remote Connection dialog, which might make it easier for man-in-the-middle attackers to spoof SSH servers by leveraging protocol vulnerabilities."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0199",
+        "datePublished": "2011-06-24T20:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Certificate Trust Policy component in Apple Mac OS X before 10.6.8 does not perform CRL checking for Extended Validation (EV) certificates that lack OCSP URLs, which might allow man-in-the-middle attackers to spoof an SSL server via a revoked certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0220",
+        "datePublished": "2020-02-05T19:46:24",
+        "description": {
+            "lang": "en",
+            "value": "Apple Bonjour before 2011 allows a crash via a crafted multicast DNS packet."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0228",
+        "datePublished": "2011-08-29T20:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Data Security component in Apple iOS before 4.2.10 and 4.3.x before 4.3.5 does not check the basicConstraints parameter during validation of X.509 certificate chains, which allows man-in-the-middle attackers to spoof an SSL server by using a non-CA certificate to sign a certificate for an arbitrary domain."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0259",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "CoreFoundation, as used in Apple iTunes before 10.5, does not properly perform string tokenization, which allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via unspecified vectors."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0331",
+        "datePublished": "2011-03-22T17:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Use-after-free vulnerability in the addOSPLext method in the Honeywell ScanServer ActiveX control 780.0.20.5 allows remote attackers to execute arbitrary code via a crafted HTML document."
+        },
+        "metrics": [],
+        "tags": [
+            "ddos"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0398",
+        "datePublished": "2011-01-10T19:18:00",
+        "description": {
+            "lang": "en",
+            "value": "The Piwik_Common::getIP function in Piwik before 1.1 does not properly determine the client IP address, which allows remote attackers to bypass intended geolocation and logging functionality via (1) use of a private (aka RFC 1918) address behind a proxy server or (2) spoofing of the X-Forwarded-For HTTP header."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0403",
+        "datePublished": "2011-01-11T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Untrusted search path vulnerability in ImgBurn.exe in ImgBurn 2.4.0.0, 2.5.4.0, and other versions allows local users, and possibly remote attackers, to execute arbitrary code and conduct DLL hijacking attacks via a Trojan horse dwmapi.dll that is located in the same folder as a CUE file."
+        },
+        "metrics": [],
+        "tags": [
+            "hijacking"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0411",
+        "datePublished": "2011-03-16T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The STARTTLS implementation in Postfix 2.4.x before 2.4.16, 2.5.x before 2.5.12, 2.6.x before 2.6.9, and 2.7.x before 2.7.3 does not properly restrict I/O buffering, which allows man-in-the-middle attackers to insert commands into encrypted SMTP sessions by sending a cleartext command that is processed after TLS is in place, related to a \"plaintext command injection\" attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0414",
+        "datePublished": "2011-02-23T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "ISC BIND 9.7.1 through 9.7.2-P3, when configured as an authoritative server, allows remote attackers to cause a denial of service (deadlock and daemon hang) by sending a query at the time of (1) an IXFR transfer or (2) a DDNS update."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0487",
+        "datePublished": "2011-01-18T17:00:00",
+        "description": {
+            "lang": "en",
+            "value": "ICQ 7 does not verify the authenticity of updates, which allows man-in-the-middle attackers to execute arbitrary code via a crafted file that is fetched through an automatic-update mechanism."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0520",
+        "datePublished": "2011-01-28T15:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The compress_add_dlabel_points function in dns/Compress.c in MaraDNS 1.4.03, 1.4.05, and probably other versions allows remote attackers to cause a denial of service (segmentation fault) and possibly execute arbitrary code via a long DNS hostname with a large number of labels, which triggers a heap-based buffer overflow."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0546",
+        "datePublished": "2011-05-31T20:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Symantec Backup Exec 11.0, 12.0, 12.5, 13.0, and 13.0 R2 does not validate identity information sent between the media server and the remote agent, which allows man-in-the-middle attackers to execute NDMP commands via unspecified vectors."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0633",
+        "datePublished": "2011-05-13T22:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The Net::HTTPS module in libwww-perl (LWP) before 6.00, as used in WWW::Mechanize, LWP::UserAgent, and other products, when running in environments that do not set the If-SSL-Cert-Subject header, does not enable full validation of SSL certificates by default, which allows remote attackers to spoof servers via man-in-the-middle (MITM) attacks involving hostnames that are not properly validated.  NOTE: it could be argued that this is a design limitation of the Net::HTTPS API, and separate implementations should be independently assigned CVE identifiers for not working around this limitation. However, because this API was modified within LWP, a single CVE identifier has been assigned."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0657",
+        "datePublished": "2011-04-13T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "DNSAPI.dll in the DNS client in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 does not properly process DNS queries, which allows remote attackers to execute arbitrary code via (1) a crafted LLMNR broadcast query or (2) a crafted application, aka \"DNS Query Vulnerability.\""
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0730",
+        "datePublished": "2011-06-02T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Eucalyptus before 2.0.3 and Eucalyptus EE before 2.0.2, as used in Ubuntu Enterprise Cloud (UEC) and other products, do not properly interpret signed elements in SOAP requests, which allows man-in-the-middle attackers to execute arbitrary commands by modifying a request, related to an \"XML Signature Element Wrapping\" or a \"SOAP signature replay\" issue."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0738",
+        "datePublished": "2011-02-02T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "MyProxy 5.0 through 5.2, as used in Globus Toolkit 5.0.0 through 5.0.2, does not properly verify the (1) hostname or (2) identity in the X.509 certificate for the myproxy-server, which allows remote attackers to spoof the server and conduct man-in-the-middle (MITM) attacks via a crafted certificate when executing (a) myproxy-logon or (b) myproxy-get-delegation."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0886",
+        "datePublished": "2011-02-08T21:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Multiple cross-site request forgery (CSRF) vulnerabilities in the web interface on the SMC SMCD3G-CCR (aka Comcast Business Gateway) with firmware before 1.4.0.49.2 allow remote attackers to (1) hijack the intranet connectivity of arbitrary users for requests that perform a login via goform/login, or hijack the authentication of administrators for requests that (2) enable external logins via an mso_remote_enable action to goform/RemoteRange or (3) change DNS settings via a manual_dns_enable action to goform/Basic."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-0926",
+        "datePublished": "2011-02-25T17:00:00",
+        "description": {
+            "lang": "en",
+            "value": "A certain ActiveX control in CSDWebInstaller.ocx in Cisco Secure Desktop (CSD) does not properly verify the signature of an unspecified downloaded program, which allows remote attackers to execute arbitrary code by spoofing the CSD installation process, a different vulnerability than CVE-2010-0589."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1002",
+        "datePublished": "2011-02-22T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "avahi-core/socket.c in avahi-daemon in Avahi before 0.6.29 allows remote attackers to cause a denial of service (infinite loop) via an empty mDNS (1) IPv4 or (2) IPv6 UDP packet to port 5353.  NOTE: this vulnerability exists because of an incorrect fix for CVE-2010-2244."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1076",
+        "datePublished": "2011-10-05T01:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "net/dns_resolver/dns_key.c in the Linux kernel before 2.6.38 allows remote DNS servers to cause a denial of service (NULL pointer dereference and OOPS) by not providing a valid response to a DNS query, as demonstrated by an erroneous grand.centrall.org query, which triggers improper handling of error data within a DNS resolver key."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1094",
+        "datePublished": "2011-03-16T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "kio/kio/tcpslavebase.cpp in KDE KSSL in kdelibs before 4.6.1 does not properly verify that the server hostname matches the domain name of the subject of an X.509 certificate, which allows man-in-the-middle attackers to spoof arbitrary SSL servers via a certificate issued by a legitimate Certification Authority for an IP address, a different vulnerability than CVE-2009-2702."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1224",
+        "datePublished": "2011-07-07T21:00:00",
+        "description": {
+            "lang": "en",
+            "value": "IBM WebSphere MQ 6.0 before 6.0.2.11 and 7.0 before 7.0.1.5 does not use the CRL Distribution Points (CDP) certificate extension, which might allow man-in-the-middle attackers to spoof an SSL partner via a revoked certificate for a (1) client, (2) queue manager, or (3) application."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1428",
+        "datePublished": "2011-03-16T22:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Wee Enhanced Environment for Chat (aka WeeChat) 0.3.4 and earlier does not properly verify that the server hostname matches the domain name of the subject of an X.509 certificate, which allows man-in-the-middle attackers to spoof an SSL chat server via an arbitrary certificate, related to incorrect use of the GnuTLS API."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1429",
+        "datePublished": "2011-03-16T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Mutt does not verify that the smtps server hostname matches the domain name of the subject of an X.509 certificate, which allows man-in-the-middle attackers to spoof an SSL SMTP server via an arbitrary certificate, a different vulnerability than CVE-2009-3766."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1430",
+        "datePublished": "2011-03-16T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The STARTTLS implementation in the server in Ipswitch IMail 11.03 and earlier does not properly restrict I/O buffering, which allows man-in-the-middle attackers to insert commands into encrypted SMTP sessions by sending a cleartext command that is processed after TLS is in place, related to a \"plaintext command injection\" attack, a similar issue to CVE-2011-0411."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1431",
+        "datePublished": "2011-03-16T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The STARTTLS implementation in qmail-smtpd.c in qmail-smtpd in the netqmail-1.06-tls patch for netqmail 1.06 does not properly restrict I/O buffering, which allows man-in-the-middle attackers to insert commands into encrypted SMTP sessions by sending a cleartext command that is processed after TLS is in place, related to a \"plaintext command injection\" attack, a similar issue to CVE-2011-0411."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1432",
+        "datePublished": "2011-03-16T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The STARTTLS implementation in SCO SCOoffice Server does not properly restrict I/O buffering, which allows man-in-the-middle attackers to insert commands into encrypted SMTP sessions by sending a cleartext command that is processed after TLS is in place, related to a \"plaintext command injection\" attack, a similar issue to CVE-2011-0411."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1506",
+        "datePublished": "2011-03-22T17:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The STARTTLS implementation in Kerio Connect 7.1.4 build 2985 and MailServer 6.x does not properly restrict I/O buffering, which allows man-in-the-middle attackers to insert commands into encrypted SMTP sessions by sending a cleartext command that is processed after TLS is in place, related to a \"plaintext command injection\" attack, a similar issue to CVE-2011-0411.  NOTE: some of these details are obtained from third party information."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1575",
+        "datePublished": "2011-05-23T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The STARTTLS implementation in ftp_parser.c in Pure-FTPd before 1.0.30 does not properly restrict I/O buffering, which allows man-in-the-middle attackers to insert commands into encrypted FTP sessions by sending a cleartext command that is processed after TLS is in place, related to a \"plaintext command injection\" attack, a similar issue to CVE-2011-0411."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1652",
+        "datePublished": "2011-04-06T17:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The default configuration of Microsoft Windows 7 immediately prefers a new IPv6 and DHCPv6 service over a currently used IPv4 and DHCPv4 service upon receipt of an IPv6 Router Advertisement (RA), and does not provide an option to ignore an unexpected RA, which allows remote attackers to conduct man-in-the-middle attacks on communication with external IPv4 servers via vectors involving RAs, a DHCPv6 server, and NAT-PT on the local network, aka a \"SLAAC Attack.\" NOTE: it can be argued that preferring IPv6 complies with RFC 3484, and that attempting to determine the legitimacy of an RA is currently outside the scope of recommended behavior of host operating systems"
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1775",
+        "datePublished": "2011-05-26T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The CSecurityTLS::processMsg function in common/rfb/CSecurityTLS.cxx in the vncviewer component in TigerVNC 1.1beta1 does not properly verify the server's X.509 certificate, which allows man-in-the-middle attackers to spoof a TLS VNC server via an arbitrary certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1829",
+        "datePublished": "2011-07-27T01:29:00",
+        "description": {
+            "lang": "en",
+            "value": "APT before 0.8.15.2 does not properly validate inline GPG signatures, which allows man-in-the-middle attackers to install modified packages via vectors involving lack of an initial clearsigned message."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1910",
+        "datePublished": "2011-05-31T20:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Off-by-one error in named in ISC BIND 9.x before 9.7.3-P1, 9.8.x before 9.8.0-P2, 9.4-ESV before 9.4-ESV-R4-P1, and 9.6-ESV before 9.6-ESV-R4-P1 allows remote DNS servers to cause a denial of service (assertion failure and daemon exit) via a negative response containing large RRSIG RRsets."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1922",
+        "datePublished": "2011-05-31T20:00:00",
+        "description": {
+            "lang": "en",
+            "value": "daemon/worker.c in Unbound 1.x before 1.4.10, when debugging functionality and the interface-automatic option are enabled, allows remote attackers to cause a denial of service (assertion failure and daemon exit) via a crafted DNS request that triggers improper error handling."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1923",
+        "datePublished": "2012-06-20T17:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Diffie-Hellman key-exchange implementation in dhm.c in PolarSSL before 0.14.2 does not properly validate a public parameter, which makes it easier for man-in-the-middle attackers to obtain the shared secret key by modifying network traffic, a related issue to CVE-2011-5095."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1926",
+        "datePublished": "2011-05-23T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The STARTTLS implementation in Cyrus IMAP Server before 2.4.7 does not properly restrict I/O buffering, which allows man-in-the-middle attackers to insert commands into encrypted sessions by sending a cleartext command that is processed after TLS is in place, related to a \"plaintext command injection\" attack, a similar issue to CVE-2011-0411."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1966",
+        "datePublished": "2011-08-10T21:16:00",
+        "description": {
+            "lang": "en",
+            "value": "The DNS server in Microsoft Windows Server 2008 SP2, R2, and R2 SP1 does not properly handle NAPTR queries that trigger recursive processing, which allows remote attackers to execute arbitrary code via a crafted query, aka \"DNS NAPTR Query Vulnerability.\""
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-1970",
+        "datePublished": "2011-08-10T21:16:00",
+        "description": {
+            "lang": "en",
+            "value": "The DNS server in Microsoft Windows Server 2003 SP2 and Windows Server 2008 SP2, R2, and R2 SP1 does not properly initialize memory, which allows remote attackers to cause a denial of service (service outage) via a query for a nonexistent domain, aka \"DNS Uninitialized Memory Corruption Vulnerability.\""
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2165",
+        "datePublished": "2011-05-23T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The STARTTLS implementation in WatchGuard XCS 9.0 and 9.1 does not properly restrict I/O buffering, which allows man-in-the-middle attackers to insert commands into encrypted SMTP sessions by sending a cleartext command that is processed after TLS is in place, related to a \"plaintext command injection\" attack, a similar issue to CVE-2011-0411."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2338",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2339",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2341",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2352",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2354",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2356",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2500",
+        "datePublished": "2014-02-15T11:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The host_reliable_addrinfo function in support/export/hostname.c in nfs-utils before 1.2.4 does not properly use DNS to verify access to NFS exports, which allows remote attackers to mount filesystems by establishing crafted DNS A and PTR records."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2660",
+        "datePublished": "2011-09-06T16:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The modify_resolvconf_suse script in the vpnc package before 0.5.1-55.10.1 in SUSE Linux Enterprise Desktop 11 SP1 might allow remote attackers to execute arbitrary commands via a crafted DNS domain name."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2683",
+        "datePublished": "2017-10-23T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "reseed seeds random numbers from an insecure HTTP request to random.org during installation, which makes it easier for remote attackers to defeat cryptographic protection mechanisms via a man-in-the-middle attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2809",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2811",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2813",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2814",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2815",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2816",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2817",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2820",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2831",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2866",
+        "datePublished": "2012-03-08T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.6, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2012-03-07-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-2883",
+        "datePublished": "2011-07-21T23:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The NSEPA.NsepaCtrl.1 ActiveX control in nsepa.ocx in Citrix Access Gateway Enterprise Edition 8.1 before 8.1-67.7, 9.0 before 9.0-70.5, and 9.1 before 9.1-96.4 attempts to validate signed DLLs by checking the certificate subject, not the signature, which allows man-in-the-middle attackers to execute arbitrary code via HTTP header data referencing a DLL that was signed with a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3061",
+        "datePublished": "2012-03-30T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Google Chrome before 18.0.1025.142 does not properly check X.509 certificates before use of a SPDY proxy, which might allow man-in-the-middle attackers to spoof servers or obtain sensitive information via a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3085",
+        "datePublished": "2012-05-16T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Autofill feature in Google Chrome before 19.0.1084.46 does not properly restrict field values, which allows remote attackers to cause a denial of service (UI corruption) and possibly conduct spoofing attacks via vectors involving long values."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3150",
+        "datePublished": "2011-11-29T17:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Software Center in Ubuntu 11.10, 11.04 10.10 does not properly validate server certificates, which allows remote attackers to execute arbitrary code or obtain sensitive information via a man-in-the-middle (MITM) attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3152",
+        "datePublished": "2014-04-27T20:00:00",
+        "description": {
+            "lang": "en",
+            "value": "DistUpgrade/DistUpgradeFetcherCore.py in Update Manager before 1:0.87.31.1, 1:0.134.x before 1:0.134.11.1, 1:0.142.x before 1:0.142.23.1, 1:0.150.x before 1:0.150.5.1, and 1:0.152.x before 1:0.152.25.5 on Ubuntu 8.04 through 11.10 does not verify the GPG signature before extracting an upgrade tarball, which allows man-in-the-middle attackers to (1) create or overwrite arbitrary files via a directory traversal attack using a crafted tar file, or (2) bypass authentication via a crafted meta-release file."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3199",
+        "datePublished": "2014-03-20T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Multiple cross-site scripting (XSS) vulnerabilities in Domain Technologie Control (DTC) before 0.34.1 allow remote authenticated users to inject arbitrary web script or HTML via the (1) message body of a support ticket or unspecified vectors to the (2) DNS and (3) MX form, as demonstrated by the \"Domain root TXT record:\" field."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3213",
+        "datePublished": "2011-10-14T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The File Systems component in Apple Mac OS X before 10.7.2 does not properly track the specific X.509 certificate that a user manually accepted for an initial https WebDAV connection, which allows man-in-the-middle attackers to hijack WebDAV communication by presenting an arbitrary certificate for a subsequent connection."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3218",
+        "datePublished": "2011-10-14T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The \"Save for Web\" selection in QuickTime Player in Apple Mac OS X through 10.6.8 exports HTML documents that contain an http link to a script file, which allows man-in-the-middle attackers to conduct cross-site scripting (XSS) attacks by spoofing the http server during local viewing of an exported document."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3224",
+        "datePublished": "2011-10-14T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The User Documentation component in Apple Mac OS X through 10.6.8 uses http sessions for updates to App Store help information, which allows man-in-the-middle attackers to execute arbitrary code by spoofing the http server."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3233",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3235",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3236",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3237",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3238",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3239",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3241",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3244",
+        "datePublished": "2011-10-12T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 10.5, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-10-11-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3253",
+        "datePublished": "2011-10-14T10:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "CalDAV in Apple iOS before 5 does not validate X.509 certificates for SSL sessions, which allows man-in-the-middle attackers to spoof calendar servers and obtain sensitive information via an arbitrary certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3374",
+        "datePublished": "2019-11-25T23:13:02",
+        "description": {
+            "lang": "en",
+            "value": "It was found that apt-key in apt, all versions, do not correctly validate gpg keys with the master keyring, leading to a potential man-in-the-middle attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3389",
+        "datePublished": "2011-09-06T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The SSL protocol, as used in certain configurations in Microsoft Windows and Microsoft Internet Explorer, Mozilla Firefox, Google Chrome, Opera, and other products, encrypts data by using CBC mode with chained initialization vectors, which allows man-in-the-middle attackers to obtain plaintext HTTP headers via a blockwise chosen-boundary attack (BCBA) on an HTTPS session, in conjunction with JavaScript code that uses (1) the HTML5 WebSocket API, (2) the Java URLConnection API, or (3) the Silverlight WebClient API, aka a \"BEAST\" attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3422",
+        "datePublished": "2011-09-10T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Keychain implementation in Apple Mac OS X 10.6.8 and earlier does not properly handle an untrusted attribute of a Certification Authority certificate, which makes it easier for man-in-the-middle attackers to spoof arbitrary SSL servers via an Extended Validation certificate, as demonstrated by https access with Safari."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3427",
+        "datePublished": "2011-10-14T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Data Security component in Apple iOS before 5 and Apple TV before 4.4 does not properly restrict use of the MD5 hash algorithm within X.509 certificates, which makes it easier for man-in-the-middle attackers to spoof servers or obtain sensitive information via a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3441",
+        "datePublished": "2011-11-11T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "libinfo in Apple iOS before 5.0.1 does not properly formulate domain-name queries, which allows remote attackers to obtain sensitive information via a crafted DNS hostname."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3453",
+        "datePublished": "2012-02-02T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Integer overflow in libresolv in Apple Mac OS X before 10.7.3 allows remote attackers to execute arbitrary code or cause a denial of service (heap memory corruption and application crash) via crafted DNS data."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3462",
+        "datePublished": "2012-02-02T18:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Time Machine in Apple Mac OS X before 10.7.3 does not verify the unique identifier of its remote AFP volume or Time Capsule, which allows remote attackers to obtain sensitive information contained in new backups by spoofing this storage object, a different vulnerability than CVE-2010-1803."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3503",
+        "datePublished": "2011-09-16T17:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Untrusted search path vulnerability in eSignal 10.6.2425.1208, and possibly other versions, allows local users, and possibly remote attackers, to execute arbitrary code and conduct DLL hijacking attacks via a Trojan horse JRS_UT.dll that is located in the same folder as a .quo (QUOTE) file.  NOTE: the provenance of this information is unknown; the details are obtained solely from third party information."
+        },
+        "metrics": [],
+        "tags": [
+            "hijacking"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3581",
+        "datePublished": "2011-11-04T21:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Heap-based buffer overflow in the ldns_rr_new_frm_str_internal function in ldns before 1.6.11 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a Resource Record (RR) with an unknown type containing input that is longer than a specified length."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3588",
+        "datePublished": "2014-02-15T11:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The SSH configuration in the Red Hat mkdumprd script for kexec-tools, as distributed in the kexec-tools 1.x before 1.102pre-154 and 2.x before 2.0.0-209 packages in Red Hat Enterprise Linux, disables the StrictHostKeyChecking option, which allows man-in-the-middle attackers to spoof kdump servers, and obtain sensitive core information, by using an arbitrary SSH key."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3634",
+        "datePublished": "2014-02-28T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "methods/https.cc in apt before 0.8.11 accepts connections when the certificate host name fails validation and Verify-Host is enabled, which allows man-in-the-middle attackers to obtain repository credentials via unspecified vectors."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-3872",
+        "datePublished": "2011-10-27T20:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Puppet 2.6.x before 2.6.12 and 2.7.x before 2.7.6, and Puppet Enterprise (PE) Users 1.0, 1.1, and 1.2 before 1.2.4, when signing an agent certificate, adds the Puppet master's certdnsnames values to the X.509 Subject Alternative Name field of the certificate, which allows remote attackers to spoof a Puppet master via a man-in-the-middle (MITM) attack against an agent that uses an alternate DNS name for the master, aka \"AltNames Vulnerability.\""
+        },
+        "metrics": [],
+        "tags": [
+            "dns",
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4076",
+        "datePublished": "2019-11-26T03:53:58",
+        "description": {
+            "lang": "en",
+            "value": "OpenStack Nova before 2012.1 allows someone with access to an EC2_ACCESS_KEY (equivalent to a username) to obtain the EC2_SECRET_KEY (equivalent to a password). Exposing the EC2_ACCESS_KEY via http or tools that allow man-in-the-middle over https could allow an attacker to easily obtain the EC2_SECRET_KEY. An attacker could also presumably brute force values for EC2_ACCESS_KEY."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4096",
+        "datePublished": "2011-11-17T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The idnsGrokReply function in Squid before 3.1.16 does not properly free memory, which allows remote attackers to cause a denial of service (daemon abort) via a DNS reply containing a CNAME record that references another CNAME record that contains an empty A record."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4129",
+        "datePublished": "2012-10-22T23:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "(1) services/twitter/twitter-contact-view.c and (2) services/twitter/twitter-item-view.c in libsocialweb before 0.25.20 automatically connect to Twitter when no Twitter account is set, which might allow remote attackers to obtain sensitive information via a man-in-the-middle (MITM) attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4139",
+        "datePublished": "2011-10-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Django before 1.2.7 and 1.3.x before 1.3.1 uses a request's HTTP Host header to construct a full URL in certain circumstances, which allows remote attackers to conduct cache poisoning attacks via a crafted request."
+        },
+        "metrics": [],
+        "tags": [
+            "cache poisoning"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4140",
+        "datePublished": "2011-10-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The CSRF protection mechanism in Django through 1.2.7 and 1.3.x through 1.3.1 does not properly handle web-server configurations supporting arbitrary HTTP Host headers, which allows remote attackers to trigger unauthenticated forged requests via vectors involving a DNS CNAME record and a web page containing JavaScript code."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4313",
+        "datePublished": "2011-11-29T17:00:00",
+        "description": {
+            "lang": "en",
+            "value": "query.c in ISC BIND 9.0.x through 9.6.x, 9.4-ESV through 9.4-ESV-R5, 9.6-ESV through 9.6-ESV-R5, 9.7.0 through 9.7.4, 9.8.0 through 9.8.1, and 9.9.0a1 through 9.9.0b1 allows remote attackers to cause a denial of service (assertion failure and named exit) via unknown vectors related to recursive DNS queries, error logging, and the caching of an invalid record by the resolver."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4314",
+        "datePublished": "2012-01-27T15:00:00",
+        "description": {
+            "lang": "en",
+            "value": "message/ax/AxMessage.java in OpenID4Java before 0.9.6 final, as used in JBoss Enterprise Application Platform 5.1 before 5.1.2, Step2, Kay Framework before 1.0.2, and possibly other products does not verify that Attribute Exchange (AX) information is signed, which allows remote attackers to modify potentially sensitive AX information without detection via a man-in-the-middle (MITM) attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4318",
+        "datePublished": "2013-03-07T01:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Dovecot 2.0.x before 2.0.16, when ssl or starttls is enabled and hostname is used to define the proxy destination, does not verify that the server hostname matches a domain name in the subject's Common Name (CN) of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via a valid certificate for a different hostname."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4405",
+        "datePublished": "2011-11-29T17:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The cupshelpers scripts in system-config-printer in Ubuntu 11.04 and 11.10, as used by the automatic printer driver download service, uses an \"insecure connection\" for queries to the OpenPrinting database, which allows remote attackers to execute arbitrary code via a man-in-the-middle (MITM) attack that modifies packages or repositories."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4407",
+        "datePublished": "2014-05-14T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "ppa.py in Software Properties before 0.81.13.3 does not validate the server certificate when downloading PPA GPG key fingerprints, which allows man-in-the-middle (MITM) attackers to spoof GPG keys for a package repository."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4408",
+        "datePublished": "2012-06-16T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Single Sign On Client (ubuntu-sso-client) for Ubuntu 11.04 and 11.10 does not properly validate SSL certificates when using HTTPS, which allows remote attackers to spoof a server and modify or read sensitive data via a man-in-the-middle (MITM) attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4409",
+        "datePublished": "2012-06-16T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Ubuntu One Client for Ubuntu 10.04 LTS, 11.04, 11.10, and 12.04 LTS does not properly validate SSL certificates, which allows remote attackers to spoof a server and modify or read sensitive information via a man-in-the-middle (MITM) attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4528",
+        "datePublished": "2011-12-20T11:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Unbound before 1.4.13p2 attempts to free unallocated memory during processing of duplicate CNAME records in a signed zone, which allows remote DNS servers to cause a denial of service (daemon crash) via a crafted response."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4600",
+        "datePublished": "2016-04-14T15:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The networkReloadIptablesRules function in network/bridge_driver.c in libvirt before 0.9.9 does not properly handle firewall rules on bridge networks when libvirtd is restarted, which might allow remote attackers to bypass intended access restrictions via a (1) DNS or (2) DHCP query."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4696",
+        "datePublished": "2014-03-03T16:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Directory traversal vulnerability in Eye-Fi Helper before 3.4.23 allows man-in-the-middle attackers to create arbitrary files via a .. (dot dot) in the filesignature in a GetPhotoStatus request."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4746",
+        "datePublished": "2011-12-16T11:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The billing system for Parallels Plesk Panel 10.3.1_build1013110726.09 does not disable the SSL 2.0 protocol, which makes it easier for remote attackers to conduct spoofing attacks by leveraging protocol weaknesses."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4868",
+        "datePublished": "2012-01-15T02:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The logging functionality in dhcpd in ISC DHCP before 4.2.3-P2, when using Dynamic DNS (DDNS) and issuing IPv6 addresses, does not properly handle the DHCPv6 lease structure, which allows remote attackers to cause a denial of service (NULL pointer dereference and daemon crash) via crafted packets related to a lease-status update."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4869",
+        "datePublished": "2011-12-20T11:00:00",
+        "description": {
+            "lang": "en",
+            "value": "validator/val_nsec3.c in Unbound before 1.4.13p2 does not properly perform proof processing for NSEC3-signed zones, which allows remote DNS servers to cause a denial of service (daemon crash) via a malformed response that lacks expected NSEC3 records, a different vulnerability than CVE-2011-4528."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-4968",
+        "datePublished": "2019-11-19T15:18:17",
+        "description": {
+            "lang": "en",
+            "value": "nginx http proxy module does not verify peer identity of https origin server which could facilitate man-in-the-middle attack (MITM)"
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-5055",
+        "datePublished": "2012-01-08T00:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "MaraDNS 1.3.07.12 and 1.4.08 computes hash values for DNS data without properly restricting the ability to trigger hash collisions predictably, which allows remote attackers to cause a denial of service (CPU consumption) by sending many crafted queries with the Recursion Desired (RD) bit set.  NOTE: this issue exists because of an incomplete fix for CVE-2012-0024."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-5056",
+        "datePublished": "2012-01-08T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The authoritative server in MaraDNS through 2.0.04 computes hash values for DNS data without restricting the ability to trigger hash collisions predictably, which might allow local users to cause a denial of service (CPU consumption) via crafted records in zone files, a different vulnerability than CVE-2012-0024."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-5095",
+        "datePublished": "2012-06-20T17:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The Diffie-Hellman key-exchange implementation in OpenSSL 0.9.8, when FIPS mode is enabled, does not properly validate a public parameter, which makes it easier for man-in-the-middle attackers to obtain the shared secret key by modifying network traffic, a related issue to CVE-2011-1923."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-5114",
+        "datePublished": "2012-08-23T20:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Multiple cross-site scripting (XSS) vulnerabilities in the Authoritative DNS - DNS Zones page in Barracuda Link Balancer 330 Firmware 1.3.2.005 and earlier allow remote attackers to inject arbitrary web script or HTML via the (1) zoneid or (2) scope parameter."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-5236",
+        "datePublished": "2012-11-06T11:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Moneris eSelectPlus 2.03 PHP API does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-5237",
+        "datePublished": "2012-11-06T11:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "PayPal WPS ToolKit does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-5238",
+        "datePublished": "2012-11-06T11:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "google-checkout-php-sample-code before 1.3.2 does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-5239",
+        "datePublished": "2012-11-06T11:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "CiviCRM 4.0.5 and 4.1.1 does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-5240",
+        "datePublished": "2012-11-06T11:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Magento 1.5 and 1.6.2 does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-5241",
+        "datePublished": "2012-11-06T11:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Services_Twitter 0.6.3 does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-5242",
+        "datePublished": "2012-11-06T11:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "tmhOAuth before 0.61 does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2011-5243",
+        "datePublished": "2012-11-06T11:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "TwitterOAuth does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    }
+]

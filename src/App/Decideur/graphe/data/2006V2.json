@@ -1,0 +1,881 @@
+[
+    {
+        "cveId": "CVE-2006-0023",
+        "datePublished": "2006-02-08T02:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Microsoft Windows XP SP1 and SP2 before August 2004, and possibly other operating systems and versions, uses insecure default ACLs that allow the Authenticated Users group to gain privileges by modifying critical configuration information for the (1) Simple Service Discovery Protocol (SSDP), (2) Universal Plug and Play Device Host (UPnP), (3) NetBT, (4) SCardSvr, (5) DHCP, and (6) DnsCache services, aka \"Permissive Windows Services DACLs.\"  NOTE: the NetBT, SCardSvr, DHCP, DnsCache already require privileged access to exploit."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-0231",
+        "datePublished": "2006-04-25T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Symantec Scan Engine 5.0.0.24, and possibly other versions before 5.1.0.7, uses the same private DSA key for each installation, which allows remote attackers to conduct man-in-the-middle attacks and decrypt communications."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-0304",
+        "datePublished": "2006-01-19T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Buffer overflow in Dual DHCP DNS Server 1.0 allows remote attackers to cause a denial of service (application crash) and possibly execute arbitrary code via the DHCP options field."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-0351",
+        "datePublished": "2006-01-21T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Unspecified \"critical denial-of-service vulnerability\" in MyDNS before 1.1.0 has unknown impact and attack vectors."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-0527",
+        "datePublished": "2006-02-02T11:00:00",
+        "description": {
+            "lang": "en",
+            "value": "BIND 4 (BIND4) and BIND 8 (BIND8), if used as a target forwarder, allows remote attackers to gain privileged access via a \"Kashpureff-style DNS cache corruption\" attack."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-0731",
+        "datePublished": "2006-02-16T11:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WmRoot/adapter-index.dsp in SAP Business Connector Core Fix 7 and earlier allows remote attackers to conduct spoofing (phishing) attacks via an absolute URL in the url parameter, which loads the URL inside a frame."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-0987",
+        "datePublished": "2006-03-03T11:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The default configuration of ISC BIND before 9.4.1-P1, when configured as a caching name server, allows recursive queries and provides additional delegation information to arbitrary IP addresses, which allows remote attackers to cause a denial of service (traffic amplification) via DNS queries with spoofed source IP addresses."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-0988",
+        "datePublished": "2006-03-03T11:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The default configuration of the DNS Server service on Windows Server 2003 and Windows 2000, and the Microsoft DNS Server service on Windows NT 4.0, allows recursive queries and provides additional delegation information to arbitrary IP addresses, which allows remote attackers to cause a denial of service (traffic amplification) via DNS queries with spoofed source IP addresses."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-1192",
+        "datePublished": "2006-04-11T23:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Microsoft Internet Explorer 5.01 through 6 allows remote attackers to conduct phishing attacks by spoofing the address bar and other parts of the trust UI via unknown methods that allow \"window content to persist\" after the user has navigated to another site, aka the \"Address Bar Spoofing Vulnerability.\"  NOTE: this is a different vulnerability than CVE-2006-1626."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-1253",
+        "datePublished": "2006-03-19T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Unspecified vulnerability in glFTPd before 2.01 RC5 allows remote attackers to bypass IP checks via a crafted DNS hostname, possibly a hostname that appears to be an IP address."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-1757",
+        "datePublished": "2006-04-13T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Cross-site scripting (XSS) vulnerability in index.php in Vegadns 0.99 allows remote attackers to inject arbitrary web script or HTML via the message parameter."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-1758",
+        "datePublished": "2006-04-13T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "SQL injection vulnerability in index.php in Vegadns 0.99 allows remote attackers to execute arbitrary SQL commands via the cid parameter."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-2017",
+        "datePublished": "2006-04-25T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Dnsmasq 2.29 allows remote attackers to cause a denial of service (application crash) via a DHCP client broadcast reply request."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-2069",
+        "datePublished": "2006-04-27T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The recursor in PowerDNS before 3.0.1 allows remote attackers to cause a denial of service (application crash) via malformed EDNS0 packets."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-2072",
+        "datePublished": "2006-04-27T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Multiple unspecified vulnerabilities in DeleGate 9.x before 9.0.6 and 8.x before 8.11.6 allow remote attackers to cause a denial of service via crafted DNS responses messages that cause (1) a buffer over-read or (2) infinite recursion, which can trigger a segmentation fault or invalid memory access, as demonstrated by the OUSPG PROTOS DNS test suite."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-2073",
+        "datePublished": "2006-04-27T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Unspecified vulnerability in ISC BIND allows remote attackers to cause a denial of service via a crafted DNS message with a \"broken\" TSIG, as demonstrated by the OUSPG PROTOS DNS test suite."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-2074",
+        "datePublished": "2006-04-27T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Unspecified vulnerability in Juniper Networks JUNOSe E-series routers before 7-1-1 has unknown impact and remote attack vectors related to the DNS \"client code,\" as demonstrated by the OUSPG PROTOS DNS test suite."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-2075",
+        "datePublished": "2006-04-27T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Unspecified vulnerability in MyDNS 1.1.0 allows remote attackers to cause a denial of service via a crafted DNS message, aka \"Query-of-death,\" as demonstrated by the OUSPG PROTOS DNS test suite."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-2076",
+        "datePublished": "2006-04-27T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Memory leak in Paul Rombouts pdnsd before 1.2.4 allows remote attackers to cause a denial of service (memory consumption) via a DNS query with an unsupported (1) QTYPE or (2) QCLASS, as demonstrated by the OUSPG PROTOS DNS test suite."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-2077",
+        "datePublished": "2006-04-27T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Buffer overflow in Paul Rombouts pdnsd before 1.2.4 has unknown impact and attack vectors.  NOTE: this issue might be related to the OUSPG PROTOS DNS test suite."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-2078",
+        "datePublished": "2006-04-27T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Multiple unspecified vulnerabilities in multiple FITELnet products, including FITELnet-F40, F80, F100, F120, F1000, and E20/E30, allow remote attackers to cause a denial of service via crafted DNS messages that trigger errors in (1) ProxyDNS or (2) PKI-Resolver, as demonstrated by the OUSPG PROTOS DNS test suite."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-2240",
+        "datePublished": "2006-05-09T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Unspecified vulnerability in the (1) web cache or (2) web proxy in Fujitsu NetShelter/FW allows remote attackers to cause a denial of service (device unresponsiveness) via certain DNS packets, as demonstrated by the OUSPG PROTOS DNS test suite."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-2288",
+        "datePublished": "2006-05-09T23:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Avahi before 0.6.10 allows local users to cause a denial of service (mDNS/DNS-SD service disconnect) via unspecified mDNS name conflicts."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-2324",
+        "datePublished": "2006-05-12T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "180solutions Zango downloads \"required Adware components\" without checking integrity or authenticity, which might allow context-dependent attackers to execute arbitrary code by subverting the DNS resolution of static.zangocash.com."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-2384",
+        "datePublished": "2006-06-13T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Microsoft Internet Explorer 5.01 SP4 and 6 SP1 and earlier allows remote attackers to conduct spoofing and phishing attacks by using a modal browser window in a way that preserves the original address bar and trusted UI of a trusted site, even after the browser has been navigated to a malicious site, aka the \"Address Bar Spoofing Vulnerability.\""
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-2471",
+        "datePublished": "2006-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Multiple vulnerabilities in BEA WebLogic Server 8.1 through SP4, 7.0 through SP6, and 6.1 through SP7 leak sensitive information to remote attackers, including (1) DNS and IP addresses to address to T3 clients, (2) internal sensitive information using GetIORServlet, (3) certain \"server details\" in exceptions when invalid XML is provided, and (4) a stack trace in a SOAP fault."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-2479",
+        "datePublished": "2006-05-19T17:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Update functionality in Bitrix Site Manager 4.1.x does not verify the authenticity of downloaded updates, which allows remote attackers to obtain sensitive information and ultimately execute arbitrary PHP code via DNS cache poisoning that redirects the user to a malicious site."
+        },
+        "metrics": [],
+        "tags": [
+            "dns",
+            "dns cache poisoning",
+            "cache poisoning"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-2703",
+        "datePublished": "2006-06-01T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The RedCarpet command-line client (rug) does not verify SSL certificates from a server, which allows remote attackers to read network traffic and execute commands via a man-in-the-middle (MITM) attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-2974",
+        "datePublished": "2006-06-12T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Multiple cross-site scripting (XSS) vulnerabilities in EmailArchitect Email Server 6.1.0.5 and earlier allow remote attackers to inject arbitrary web script or HTML via the (1) errCode and (2) uid parameter in (a) default.asp and (3) dname parameter in (b) /admin/dns.asp and (c) /additional/regdomain_done.asp."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-3073",
+        "datePublished": "2006-06-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Multiple cross-site scripting (XSS) vulnerabilities in the WebVPN feature in the Cisco VPN 3000 Series Concentrators and Cisco ASA 5500 Series Adaptive Security Appliances (ASA), when in WebVPN clientless mode, allow remote attackers to inject arbitrary web script or HTML via the domain parameter in (1) dnserror.html and (2) connecterror.html, aka bugid CSCsd81095 (VPN3k) and CSCse48193 (ASA). NOTE: the vendor states that \"WebVPN full-network-access mode\" is not affected, despite the claims by the original researcher."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-3216",
+        "datePublished": "2006-06-24T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Clearswift MAILsweeper for SMTP before 4.3.20 and MAILsweeper for Exchange before 4.3.20 allows remote attackers to cause a denial of service via (1) non-ASCII characters in a reverse DNS lookup result from a Received header, which leads to a Receiver service stop, and (2) unspecified vectors involving malformed messages, which causes \"unpredictable behavior\" that prevents the Security service from processing more messages."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-3415",
+        "datePublished": "2006-07-07T00:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Tor before 0.1.1.20 uses improper logic to validate the \"OR\" destination, which allows remote attackers to perform a man-in-the-middle (MITM) attack via unspecified vectors."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-3441",
+        "datePublished": "2006-08-09T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Buffer overflow in the DNS Client service in Microsoft Windows 2000 SP4, XP SP1 and SP2, and Server 2003 SP1 allows remote attackers to execute arbitrary code via a crafted record response.  NOTE: while MS06-041 implies that there is a single issue, there are multiple vectors, and likely multiple vulnerabilities, related to (1) a heap-based buffer overflow in a DNS server response to the client, (2) a DNS server response with malformed ATMA records, and (3) a length miscalculation in TXT, HINFO, X25, and ISDN records."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-3549",
+        "datePublished": "2006-07-13T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "services/go.php in Horde Application Framework 3.0.0 through 3.0.10 and 3.1.0 through 3.1.1 does not properly restrict its image proxy capability, which allows remote attackers to perform \"Web tunneling\" attacks and use the server as a proxy via (1) http, (2) https, and (3) ftp URL in the url parameter, which is requested from the server."
+        },
+        "metrics": [],
+        "tags": [
+            "tunneling"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-4251",
+        "datePublished": "2006-11-14T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Buffer overflow in PowerDNS Recursor 3.1.3 and earlier might allow remote attackers to execute arbitrary code via a malformed TCP DNS query that prevents Recursor from properly calculating the TCP DNS query length."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-4252",
+        "datePublished": "2006-11-14T20:00:00",
+        "description": {
+            "lang": "en",
+            "value": "PowerDNS Recursor 3.1.3 and earlier allows remote attackers to cause a denial of service (resource exhaustion and application crash) via a CNAME record with a zero TTL, which triggers an infinite loop."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-4499",
+        "datePublished": "2006-08-31T22:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "ModernBill 5.0.4 and earlier uses cURL with insecure settings for CURLOPT_SSL_VERIFYPEER and CURLOPT_SSL_VERIFYHOST that do not verify SSL certificates, which allows remote attackers to read network traffic via a man-in-the-middle (MITM) attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-4518",
+        "datePublished": "2006-11-28T23:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Qbik WinGate 6.1.4 and earlier allows remote attackers to cause a denial of service (CPU consumption) via a DNS request with a self-referencing compressed name pointer, which triggers an infinite loop."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-4560",
+        "datePublished": "2006-09-06T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Internet Explorer 6 on Windows XP SP2 allows remote attackers to execute arbitrary JavaScript in the context of the browser's session with an arbitrary intranet web server, by hosting script on an Internet web server that can be made inaccessible by the attacker and that has a domain name under the attacker's control, which can force the browser to drop DNS pinning and perform a new DNS query for the domain name after the script is already running."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-4561",
+        "datePublished": "2006-09-06T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Mozilla Firefox 1.5.0.6 allows remote attackers to execute arbitrary JavaScript in the context of the browser's session with an arbitrary intranet web server, by hosting script on an Internet web server that can be made inaccessible by the attacker and that has a domain name under the attacker's control, which can force the browser to drop DNS pinning and perform a new DNS query for the domain name after the script is already running."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-4562",
+        "datePublished": "2006-09-06T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The proxy DNS service in Symantec Gateway Security (SGS) allows remote attackers to make arbitrary DNS queries to third-party DNS servers, while hiding the source IP address of the attacker.  NOTE: another researcher has stated that the default configuration does not proxy DNS queries received on the external interface"
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-4567",
+        "datePublished": "2006-09-15T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Mozilla Firefox before 1.5.0.7 and Thunderbird before 1.5.0.7 makes it easy for users to accept self-signed certificates for the auto-update mechanism, which might allow remote user-assisted attackers to use DNS spoofing to trick users into visiting a malicious site and accepting a malicious certificate for the Mozilla update site, which can then be used to install arbitrary code on the next update."
+        },
+        "metrics": [],
+        "tags": [
+            "dns",
+            "dns spoofing",
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-4568",
+        "datePublished": "2006-09-15T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Mozilla Firefox before 1.5.0.7 and SeaMonkey before 1.0.5 allows remote attackers to bypass the security model and inject content into the sub-frame of another site via targetWindow.frames[n].document.open(), which facilitates spoofing and other attacks."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-4650",
+        "datePublished": "2006-09-09T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Cisco IOS 12.0, 12.1, and 12.2, when GRE IP tunneling is used and the RFC2784 compliance fixes are missing, does not verify the offset field of a GRE packet during decapsulation, which leads to an integer overflow that references data from incorrect memory locations, which allows remote attackers to inject crafted packets into the routing queue, possibly bypassing intended router ACLs."
+        },
+        "metrics": [],
+        "tags": [
+            "tunneling"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-4692",
+        "datePublished": "2006-10-10T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Argument injection vulnerability in the Windows Object Packager (packager.exe) in Microsoft Windows XP SP1 and SP2 and Server 2003 SP1 and earlier allows remote user-assisted attackers to execute arbitrary commands via a crafted file with a \"/\" (slash) character in the filename of the Command Line property, followed by a valid file extension, which causes the command before the slash to be executed, aka \"Object Packager Dialogue Spoofing Vulnerability.\""
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-4748",
+        "datePublished": "2006-09-13T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Multiple SQL injection vulnerabilities in F-ART BLOG:CMS 4.1 allow remote attackers to execute arbitrary SQL commands via the (1) xagent, (2) xpath, (3) xreferer, and (4) xdns parameters in (a) admin/plugins/NP_Log.php, and the (5) pitem parameter in (b) admin/plugins/NP_Poll.php; and allow remote authenticated users to execute arbitrary SQL commands via the (6) pageRef parameter in (c) admin/plugins/NP_Referrer.php."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-4831",
+        "datePublished": "2006-09-15T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Unspecified vulnerability in IP over DNS is now easy (iodine) before 0.3.2 has unknown impact and attack vectors, related to \"potential security problems.\""
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-4909",
+        "datePublished": "2006-09-21T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Cross-site scripting (XSS) vulnerability in Cisco Guard DDoS Mitigation Appliance before 5.1(6), when anti-spoofing is enabled, allows remote attackers to inject arbitrary web script or HTML via certain character sequences in a URL that are not properly handled when the appliance sends a meta-refresh."
+        },
+        "metrics": [],
+        "tags": [
+            "ddos",
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-4944",
+        "datePublished": "2006-09-23T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "PHP remote file inclusion vulnerability in includes/pear/Net/DNS/RR.php in ProgSys 0.151 and earlier allows remote attackers to execute arbitrary PHP code via a URL in the phpdns_basedir parameter."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-4982",
+        "datePublished": "2006-09-26T01:43:00",
+        "description": {
+            "lang": "en",
+            "value": "Cisco NAC maintains an exception list that does not record device properties other than MAC address, which allows physically proximate attackers to bypass control methods and join a local network by spoofing the MAC address of a different type of device, as demonstrated by using the MAC address of a disconnected printer."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-4983",
+        "datePublished": "2006-09-26T01:43:00",
+        "description": {
+            "lang": "en",
+            "value": "Cisco NAC allows quarantined devices to communicate over the network with (1) DNS, (2) DHCP, and (3) EAPoUDP, which allows attackers to bypass control methods by tunneling network traffic through one of these protocols."
+        },
+        "metrics": [],
+        "tags": [
+            "dns",
+            "tunneling"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-5420",
+        "datePublished": "2006-10-20T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Kerio WinRoute Firewall 6.2.2 and earlier allows remote attackers to cause a denial of service (crash) via malformed DNS responses."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-5521",
+        "datePublished": "2006-10-26T16:00:00",
+        "description": {
+            "lang": "en",
+            "value": "PHP remote file inclusion vulnerability in DNS/RR.php in Net_DNS 0.03 and earlier allows remote attackers to execute arbitrary PHP code via a URL in the phpdns_basedir parameter."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-5614",
+        "datePublished": "2006-10-31T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Microsoft Windows NAT Helper Components (ipnathlp.dll) on Windows XP SP2, when Internet Connection Sharing is enabled, allows remote attackers to cause a denial of service (svchost.exe crash) via a malformed DNS query, which results in a null pointer dereference."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-5746",
+        "datePublished": "2006-11-06T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The console in AirMagnet Enterprise before 7.5 build 6307 does not properly validate the Enterprise Server certificate, which allows remote attackers to read network traffic via a man-in-the-middle (MITM) attack, possibly related to the use of self-signed certificates."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-5781",
+        "datePublished": "2006-11-07T20:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Stack-based buffer overflow in the handshake function in iodine 0.3.2 allows remote attackers to execute arbitrary code via a crafted DNS response."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-5867",
+        "datePublished": "2007-01-09T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "fetchmail before 6.3.6-rc4 does not properly enforce TLS and may transmit cleartext passwords over unsecured links if certain circumstances occur, which allows remote attackers to obtain sensitive information via man-in-the-middle (MITM) attacks."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-5873",
+        "datePublished": "2006-12-12T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Buffer overflow in the cluster_process_heartbeat function in cluster.c in layer 2 tunneling protocol network server (l2tpns) before 2.1.21 allows remote attackers to cause a denial of service via a large heartbeat packet."
+        },
+        "metrics": [],
+        "tags": [
+            "tunneling"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-5901",
+        "datePublished": "2006-11-15T15:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Hawking Technology wireless router WR254-CA uses a hardcoded IP address among the set of DNS server IP addresses, which could allow remote attackers to cause a denial of service or hijack the router by attacking or spoofing the server at the hardcoded address.  NOTE: it could be argued that this issue reflects an inherent limitation of DNS itself, so perhaps it should not be included in CVE."
+        },
+        "metrics": [],
+        "tags": [
+            "dns",
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-5990",
+        "datePublished": "2006-11-21T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "VMWare VirtualCenter client 2.x before 2.0.1 Patch 1 (Build 33643) and 1.4.x before 1.4.1 Patch 1 (Build 33425), when server certificate verification is enabled, does not verify the server's X.509 certificate when creating an SSL session, which allows remote malicious servers to spoof valid servers via a man-in-the-middle attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-6477",
+        "datePublished": "2006-12-20T02:00:00",
+        "description": {
+            "lang": "en",
+            "value": "FRAgent.exe in Mandiant First Response (MFR) before 1.1.1, when run in daemon mode and configured to use only HTTP, allows local users to modify requests and responses between a client and an agent by hijacking an HTTP FRAgent daemon and conducting a man-in-the-middle (MITM) attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm",
+            "hijacking"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-6618",
+        "datePublished": "2006-12-18T11:00:00",
+        "description": {
+            "lang": "en",
+            "value": "AntiHook 3.0.0.23 - Desktop relies on the Process Environment Block (PEB) to identify a process, which allows local users to bypass the product's controls on a process by spoofing the (1) ImagePathName, (2) CommandLine, and (3) WindowTitle fields in the PEB."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-6619",
+        "datePublished": "2006-12-18T11:00:00",
+        "description": {
+            "lang": "en",
+            "value": "AVG Anti-Virus plus Firewall 7.5.431 relies on the Process Environment Block (PEB) to identify a process, which allows local users to bypass the product's controls on a process by spoofing the (1) ImagePathName, (2) CommandLine, and (3) WindowTitle fields in the PEB."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-6620",
+        "datePublished": "2006-12-18T11:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Comodo Personal Firewall 2.3.6.81 relies on the Process Environment Block (PEB) to identify a process, which allows local users to bypass the product's controls on a process by spoofing the (1) ImagePathName, (2) CommandLine, and (3) WindowTitle fields in the PEB."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-6621",
+        "datePublished": "2006-12-18T11:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Filseclab Personal Firewall 3.0.0.8686 relies on the Process Environment Block (PEB) to identify a process, which allows local users to bypass the product's controls on a process by spoofing the (1) ImagePathName, (2) CommandLine, and (3) WindowTitle fields in the PEB."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-6622",
+        "datePublished": "2006-12-18T11:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Soft4Ever Look 'n' Stop (LnS) 2.05p2 before 20061215 relies on the Process Environment Block (PEB) to identify a process, which allows local users to bypass the product's controls on a process by spoofing the (1) ImagePathName, (2) CommandLine, and (3) WindowTitle fields in the PEB."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-6623",
+        "datePublished": "2006-12-18T11:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Sygate Personal Firewall 5.6.2808 relies on the Process Environment Block (PEB) to identify a process, which allows local users to bypass the product's controls on a process by spoofing the (1) ImagePathName, (2) CommandLine, and (3) WindowTitle fields in the PEB."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-6679",
+        "datePublished": "2006-12-21T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Pedro Lineu Orso chetcpasswd before 2.4 relies on the X-Forwarded-For HTTP header when verifying a client's status on an IP address ACL, which allows remote attackers to gain unauthorized access by spoofing this header."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-6870",
+        "datePublished": "2007-01-05T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The consume_labels function in avahi-core/dns.c in Avahi before 0.6.16 allows remote attackers to cause a denial of service (infinite loop) via a crafted compressed DNS response with a label that points to itself."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-7054",
+        "datePublished": "2007-02-24T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The DNS module in Arkoon FAST360 UTM appliances 3.0 up to 3.0/29, 3.1 through 3.3, and 4.0 allows remote attackers to cause a denial of service (reboot) via a malformed DNS message, as demonstrated by the PROTOS DNS testing suite."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-7180",
+        "datePublished": "2007-03-30T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "ieee80211_output.c in MadWifi before 0.9.3 sends unencrypted packets before WPA authentication succeeds, which allows remote attackers to obtain sensitive information (related to network structure), and possibly cause a denial of service (disrupted authentication) and conduct spoofing attacks."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2006-7199",
+        "datePublished": "2007-04-30T23:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "EMC RSA Security SiteKey allows remote attackers to display the correct image via a man-in-the-middle (MITM) attack in which an attacker-controlled server proxies authentication data to and from a legitimate SiteKey server.  NOTE: the vendor disputes the severity of the issue, stating that it is easier to monitor this attack than \"attacks against static web pages.\""
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    }
+]

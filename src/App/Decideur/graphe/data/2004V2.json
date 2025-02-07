@@ -1,0 +1,520 @@
+[
+    {
+        "cveId": "CVE-2004-0150",
+        "datePublished": "2004-09-01T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Buffer overflow in the getaddrinfo function in Python 2.2 before 2.2.2, when IPv6 support is disabled, allows remote attackers to execute arbitrary code via an IPv6 address that is obtained using DNS."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0154",
+        "datePublished": "2004-05-12T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "rpc.mountd in nfs-utils after 1.0.3 and before 1.0.6 allows attackers to cause a denial of service (crash) via an NFS mount of a directory from a client whose reverse DNS lookup name is different from the forward lookup name."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0155",
+        "datePublished": "2004-04-16T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The KAME IKE Daemon Racoon, when authenticating a peer during Phase 1, validates the X.509 certificate but does not verify the RSA signature authentication, which allows remote attackers to establish unauthorized IP connections or conduct man-in-the-middle attacks using a valid, trusted X.509 certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0420",
+        "datePublished": "2004-04-20T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Windows Shell application in Windows 98, Windows ME, Windows NT 4.0, Windows 2000, Windows XP, and Windows Server 2003 allows remote attackers to execute arbitrary code by spoofing the type of a file via a CLSID specifier in the filename, as demonstrated using Internet Explorer 6.0.2800.1106 on Windows XP."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0444",
+        "datePublished": "2004-05-20T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Multiple vulnerabilities in SYMDNS.SYS for Symantec Norton Internet Security and Professional 2002 through 2004, Norton Personal Firewall 2002 through 2004, Norton AntiSpam 2004, Client Firewall 5.01 and 5.1.1, and Client Security 1.0 through 2.0 allow remote attackers to cause a denial of service or execute arbitrary code via (1) a manipulated length byte in the first-level decoding routine for NetBIOS Name Service (NBNS) that modifies an index variable and leads to a stack-based buffer overflow, (2) a heap-based corruption problem in an NBNS response that is missing certain RR fields, and (3) a stack-based buffer overflow in the DNS component via a Resource Record (RR) with a long canonical name (CNAME) field composed of many smaller components."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0445",
+        "datePublished": "2004-05-20T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The SYMDNS.SYS driver in Symantec Norton Internet Security and Professional 2002 through 2004, Norton Personal Firewall 2002 through 2004, Norton AntiSpam 2004, Client Firewall 5.01 and 5.1.1, and Client Security 1.0 through 2.0 allows remote attackers to cause a denial of service (CPU consumption from infinite loop) via a DNS response with a compressed name pointer that points to itself."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0606",
+        "datePublished": "2004-06-30T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Cross-site scripting (XSS) vulnerability in Infoblox DNS One running firmware 2.4.0-8 and earlier allows remote attackers to execute arbitrary scripts as other users via the (1) CLIENTID or (2) HOSTNAME option of a DHCP request."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0717",
+        "datePublished": "2004-07-23T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Opera 7.51 for Windows and 7.50 for Linux does not properly prevent a frame in one domain from injecting content into a frame that belongs to another domain, which facilitates web site spoofing and other attacks, aka the frame injection vulnerability."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0718",
+        "datePublished": "2004-07-23T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The (1) Mozilla 1.6, (2) Firebird 0.7, (3) Firefox 0.8, and (4) Netscape 7.1 web browsers do not properly prevent a frame in one domain from injecting content into a frame that belongs to another domain, which facilitates web site spoofing and other attacks, aka the frame injection vulnerability."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0719",
+        "datePublished": "2004-07-23T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Internet Explorer for Mac 5.2.3, Internet Explorer 6 on Windows XP, and possibly other versions, does not properly prevent a frame in one domain from injecting content into a frame that belongs to another domain, which facilitates web site spoofing and other attacks, aka the frame injection vulnerability."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0720",
+        "datePublished": "2004-07-23T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Safari 1.2.2 does not properly prevent a frame in one domain from injecting content into a frame that belongs to another domain, which facilitates web site spoofing and other attacks, aka the frame injection vulnerability."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0721",
+        "datePublished": "2004-07-23T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Konqueror 3.1.3, 3.2.2, and possibly other versions does not properly prevent a frame in one domain from injecting content into a frame that belongs to another domain, which facilitates web site spoofing and other attacks, aka the frame injection vulnerability."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0785",
+        "datePublished": "2004-09-02T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Multiple buffer overflows in Gaim before 0.82 allow remote attackers to cause a denial of service and possibly execute arbitrary code via (1) Rich Text Format (RTF) messages, (2) a long hostname for the local system as obtained from DNS, or (3) a long URL that is not properly handled by the URL decoder."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0789",
+        "datePublished": "2005-09-01T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Multiple implementations of the DNS protocol, including (1) Poslib 1.0.2-1 and earlier as used by Posadis, (2) Axis Network products before firmware 3.13, and (3) Men & Mice Suite 2.2x before 2.2.3 and 3.5.x before 3.5.2, allow remote attackers to cause a denial of service (CPU and network bandwidth consumption) by triggering a communications loop via (a) DNS query packets with localhost as a spoofed source address, or (b) a response packet that triggers a response packet."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0836",
+        "datePublished": "2004-10-16T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Buffer overflow in the mysql_real_connect function in MySQL 4.x before 4.0.21, and 3.x before 3.23.49, allows remote DNS servers to cause a denial of service and possibly execute arbitrary code via a DNS response with a large address length (h_length)."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0840",
+        "datePublished": "2004-10-16T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The SMTP (Simple Mail Transfer Protocol) component of Microsoft Windows XP 64-bit Edition, Windows Server 2003, Windows Server 2003 64-bit Edition, and the Exchange Routing Engine component of Exchange Server 2003, allows remote attackers to execute arbitrary code via a malicious DNS response message containing length values that are not properly validated."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0843",
+        "datePublished": "2004-10-16T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Internet Explorer 5.5 and 6 does not properly handle plug-in navigation, which allows remote attackers to alter displayed address bars and thereby spoof web pages, facilitating phishing attacks, aka the \"Plug-in Navigation Address Bar Spoofing Vulnerability.\""
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0844",
+        "datePublished": "2004-10-16T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Internet Explorer 6 on Double Byte Character Set (DBCS) systems allows remote attackers to alter displayed address bars and spoof web pages via a URL containing special characters, facilitating phishing attacks, aka the \"Address Bar Spoofing on Double Byte Character Set Systems Vulnerability.\""
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0892",
+        "datePublished": "2004-11-16T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Microsoft Proxy Server 2.0 and Microsoft ISA Server 2000 (which is included in Small Business Server 2000 and Small Business Server 2003 Premium Edition) allows remote attackers to spoof trusted Internet content on a specially crafted webpage via spoofed reverse DNS lookup results."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-0989",
+        "datePublished": "2004-10-28T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Multiple buffer overflows in libXML 2.6.12 and 2.6.13 (libxml2), and possibly other versions, may allow remote attackers to execute arbitrary code via (1) a long FTP URL that is not properly handled by the xmlNanoFTPScanURL function, (2) a long proxy URL containing FTP data that is not properly handled by the xmlNanoFTPScanProxy function, and other overflows related to manipulation of DNS length values, including (3) xmlNanoFTPConnect, (4) xmlNanoHTTPConnectHost, and (5) xmlNanoHTTPConnectHost."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-1006",
+        "datePublished": "2004-11-19T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Format string vulnerability in the log functions in dhcpd for dhcp 2.x allows remote DNS servers to execute arbitrary code via certain DNS messages, a different vulnerability than CVE-2002-0702."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-1122",
+        "datePublished": "2004-12-10T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Safari 1.x to 1.2.4, and possibly other versions, allows inactive windows to launch dialog boxes, which can allow remote attackers to spoof the dialog boxes from web sites in other windows, aka the \"Dialog Box Spoofing Vulnerability,\" a different vulnerability than CVE-2004-1314."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-1317",
+        "datePublished": "2004-12-31T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Stack-based buffer overflow in doexec.c in Netcat for Windows 1.1, when running with the -e option, allows remote attackers to execute arbitrary code via a long DNS command."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-1380",
+        "datePublished": "2005-01-29T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Firefox before 1.0 and Mozilla before 1.7.5 allows inactive (background) tabs to launch dialog boxes, which can allow remote attackers to spoof the dialog boxes from web sites in other windows and facilitate phishing attacks, aka the \"Dialog Box Spoofing Vulnerability.\""
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-1485",
+        "datePublished": "2005-02-13T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Buffer overflow in the TFTP client in InetUtils 1.4.2 allows remote malicious DNS servers to execute arbitrary code via a large DNS response that is handled by the gethostbyname function."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-1503",
+        "datePublished": "2005-02-19T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Integer overflow in the InitialDirContext in Java Runtime Environment (JRE) 1.4.2, 1.5.0 and possibly other versions allows remote attackers to cause a denial of service (Java exception and failed DNS requests) via a large number of DNS requests, which causes the xid variable to wrap around and become negative."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-1527",
+        "datePublished": "2005-02-19T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Microsoft Internet Explorer 6.0 SP1 does not properly handle certain character strings in the Path attribute, which can cause it to modify cookies in other domains when the attacker's domain name is within the target's domain name or when wildcard DNS is being used, which allows remote attackers to hijack web sessions."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-1611",
+        "datePublished": "2005-02-20T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "SalesLogix 6.1 does not verify if a user is authenticated before performing sensitive operations, which could allow remote attackers to (1) execute arbitrary SLX commands on the server or spoof the server via a man-in-the-middle (MITM) attack, or (2) obtain the database password via a GetConnection request to TCP port 1707."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-1690",
+        "datePublished": "2005-02-20T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Cross-site scripting (XSS) vulnerability in the Web Server in DNS4Me 3.0.0.4 allows remote attackers to execute arbitrary web script or HTML via the URL."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-1691",
+        "datePublished": "2005-02-20T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Web Server in DNS4Me 3.0.0.4 allows remote attackers to cause a denial of service (CPU consumption and crash) via a large amount of data."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-1754",
+        "datePublished": "2005-03-09T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The DNS proxy (DNSd) for multiple Symantec Gateway Security products allows remote attackers to poison the DNS cache via a malicious DNS server query response that contains authoritative or additional records."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-1855",
+        "datePublished": "2005-05-10T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Dark Age of Camelot before 1.68 live patch does not sign the RSA public key, which could allow remote malicious servers to gain sensitive information via a man-in-the-middle attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-1875",
+        "datePublished": "2005-05-10T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Multiple cross-site scripting (XSS) vulnerabilities in cPanel 9.1.0-R85 allow remote attackers to inject arbitrary web script or HTML via the (1) email parameter to testfile.html, (2) file parameter to erredit.html, (3) dns parameter to dnslook.html, (4) account parameter to ignorelist.html, (5) account parameter to showlog.html, (6) db parameter to repairdb.html, (7) login parameter to doaddftp.html (8) account parameter to editmsg.htm, or (9) ip parameter to del.html.  NOTE: the dnslook.html vector was later reported to exist in cPanel 10."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-2083",
+        "datePublished": "2005-05-19T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Opera Web Browser 7.0 through 7.23 allows remote attackers to trick users into executing a malicious file by embedding a CLSID in the file name, which causes the malicious file to appear as a trusted file type, aka \"File Download Extension Spoofing.\""
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-2163",
+        "datePublished": "2005-07-10T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "login_radius on OpenBSD 3.2, 3.5, and possibly other versions does not verify the shared secret in a response packet from a RADIUS server, which allows remote attackers to bypass authentication by spoofing server replies."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-2383",
+        "datePublished": "2005-08-16T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Microsoft Internet Explorer 5.0 through 6.0 allows remote attackers to bypass cross-frame scripting restrictions and capture keyboard events from other domains via an HTML document with Javascript that is outside a frameset that includes the target domain, then forcing the frameset to maintain focus.  NOTE: the discloser claimed that the vendor does not categorize this as a vulnerability, but it can be used in a spoofing scenario; the discloser provides alternate scenarios. Spoofing scenarios are currently included in CVE."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-2399",
+        "datePublished": "2005-08-17T04:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Secure Computing Corporation Sidewinder G2 6.1.0.01 allows remote attackers to cause a denial of service (CPU consumption) via delayed responses to DNS queries."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-2436",
+        "datePublished": "2005-08-20T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Computer Associates Unicenter Common Services 3.0 and earlier stores the database \"SA\" password in cleartext in the TndAddNspTmp.bat file, which could allow local users to gain privileges."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-2479",
+        "datePublished": "2005-08-21T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Squid Web Proxy Cache 2.5 might allow remote attackers to obtain sensitive information via URLs containing invalid hostnames that cause DNS operations to fail, which results in references to previously used error messages."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-2483",
+        "datePublished": "2005-08-21T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Kerio WinRoute Firewall before 6.0.9 uses information from PTR queries in response to A queries, which allows remote attackers to poison the DNS cache or cause a denial of service (connection loss)."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-2621",
+        "datePublished": "2005-12-04T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Nortel Contivity VPN Client 2.1.7, 3.00, 3.01, 4.91, and 5.01, when opening a VPN tunnel, does not check the gateway certificate until after a dialog box has been displayed to the user, which creates a race condition that allows remote attackers to perform a man-in-the-middle (MITM) attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-2761",
+        "datePublished": "2009-01-05T20:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The MD5 Message-Digest Algorithm is not collision resistant, which makes it easier for context-dependent attackers to conduct spoofing attacks, as demonstrated by attacks on the use of MD5 in the signature algorithm of an X.509 certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2004-2766",
+        "datePublished": "2010-01-28T20:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Webmail in Sun ONE Messaging Server 6.1 and iPlanet Messaging Server 5.2 before 5.2hf2.02 allows remote attackers to obtain unspecified \"access\" to e-mail via a crafted e-mail message, related to a \"session hijacking\" issue, a different vulnerability than CVE-2005-2022 and CVE-2006-5486."
+        },
+        "metrics": [],
+        "tags": [
+            "hijacking"
+        ]
+    }
+]

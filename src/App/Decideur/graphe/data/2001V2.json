@@ -1,0 +1,394 @@
+[
+    {
+        "cveId": "CVE-2001-0029",
+        "datePublished": "2001-02-02T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Buffer overflow in oops WWW proxy server 1.4.6 (and possibly other versions) allows remote attackers to execute arbitrary commands via a long host or domain name that is obtained from a reverse DNS lookup."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-0050",
+        "datePublished": "2001-05-07T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Buffer overflow in BitchX IRC client allows remote attackers to cause a denial of service and possibly execute arbitrary commands via an IP address that resolves to a long DNS hostname or domain name."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-0207",
+        "datePublished": "2001-09-18T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Buffer overflow in bing allows remote attackers to execute arbitrary commands via a long hostname, which is copied to a small buffer after a reverse DNS lookup using the gethostbyaddr function."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-0323",
+        "datePublished": "2001-04-04T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The ICMP path MTU (PMTU) discovery feature in various UNIX systems allows remote attackers to cause a denial of service by spoofing \"ICMP Fragmentation needed but Don't Fragment (DF) set\" packets between two target hosts, which could cause one host to lower its MTU when transmitting to the other host."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-0328",
+        "datePublished": "2001-05-24T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "TCP implementations that use random increments for initial sequence numbers (ISN) can allow remote attackers to perform session hijacking or disruption by injecting a flood of packets with a range of ISN values, one of which may match the expected ISN."
+        },
+        "metrics": [],
+        "tags": [
+            "hijacking"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-0339",
+        "datePublished": "2001-09-18T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Internet Explorer 5.5 and earlier allows remote attackers to display a URL in the address bar that is different than the URL that is actually being displayed, which could be used in web site spoofing attacks, aka the \"Web page spoofing vulnerability.\""
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-0497",
+        "datePublished": "2002-03-09T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "dnskeygen in BIND 8.2.4 and earlier, and dnssec-keygen in BIND 9.1.2 and earlier, set insecure permissions for a HMAC-MD5 shared secret key file used for DNS Transactional Signatures (TSIG), which allows attackers to obtain the keys and perform dynamic DNS updates."
+        },
+        "metrics": [],
+        "tags": [
+            "dns",
+            "dnssec"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-0535",
+        "datePublished": "2001-10-12T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Example applications (Exampleapps) in ColdFusion Server 4.x do not properly restrict prevent access from outside the local host's domain, which allows remote attackers to conduct upload, read, or execute files by spoofing the \"HTTP Host\" (CGI.Host) variable in (1) the \"Web Publish\" example script, and (2) the \"Email\" example script."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-0580",
+        "datePublished": "2001-07-27T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Hughes Technologies Virtual DNS (VDNS) Server 1.0 allows a remote attacker to create a denial of service by connecting to port 6070, sending some data, and closing the connection."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-0664",
+        "datePublished": "2002-03-09T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Internet Explorer 5.5 and 5.01 allows remote attackers to bypass security restrictions via malformed URLs that contain dotless IP addresses, which causes Internet Explorer to process the page in the Intranet Zone, which may have fewer security restrictions, aka the \"Zone Spoofing vulnerability.\""
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-0724",
+        "datePublished": "2003-04-02T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Internet Explorer 5.5 allows remote attackers to bypass security restrictions via malformed URLs that contain dotless IP addresses, which causes Internet Explorer to process the page in the Intranet Zone, which may have fewer security restrictions, aka the \"Zone Spoofing Vulnerability variant\" of CVE-2001-0664."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-0737",
+        "datePublished": "2001-10-12T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "A long 'synch' delay in Logitech wireless mice and keyboard receivers allows a remote attacker to hijack connections via a man-in-the-middle attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-0741",
+        "datePublished": "2004-09-01T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Cisco Hot Standby Routing Protocol (HSRP) allows local attackers to cause a denial of service by spoofing HSRP packets."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-0835",
+        "datePublished": "2001-11-22T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Cross-site scripting vulnerability in Webalizer 2.01-06, and possibly other versions, allows remote attackers to inject arbitrary HTML tags by specifying them in (1) search keywords embedded in HTTP referrer information, or (2) host names that are retrieved via a reverse DNS lookup."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-0857",
+        "datePublished": "2002-03-09T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Cross-site scripting vulnerability in status.php3 in Imp Webmail 2.2.6 and earlier allows remote attackers to gain access to the e-mail of other users by hijacking session cookies via the message parameter."
+        },
+        "metrics": [],
+        "tags": [
+            "hijacking"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-0910",
+        "datePublished": "2002-02-02T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Legato Networker before 6.1 allows remote attackers to bypass access restrictions and gain privileges on the Networker interface by spoofing the admin server name and IP address and connecting to Networker from an IP address whose hostname can not be determined by a DNS reverse lookup."
+        },
+        "metrics": [],
+        "tags": [
+            "dns",
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-1033",
+        "datePublished": "2002-02-02T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Compaq TruCluster 1.5 allows remote attackers to cause a denial of service via a port scan from a system that does not have a DNS PTR record, which causes the cluster to enter a \"split-brain\" state."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-1125",
+        "datePublished": "2002-03-15T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Symantec LiveUpdate before 1.6 does not use cryptography to ensure the integrity of download files, which allows remote attackers to execute arbitrary code via DNS spoofing of the update.symantec.com site."
+        },
+        "metrics": [],
+        "tags": [
+            "dns",
+            "dns spoofing",
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-1126",
+        "datePublished": "2002-03-15T05:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Symantec LiveUpdate 1.4 through 1.6, and possibly later versions, allows remote attackers to cause a denial of service (flood) via DNS spoofing of the update.symantec.com site."
+        },
+        "metrics": [],
+        "tags": [
+            "dns",
+            "dns spoofing",
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-1155",
+        "datePublished": "2002-06-25T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "TCP Wrappers (tcp_wrappers) in FreeBSD 4.1.1 through 4.3 with the PARANOID ACL option enabled does not properly check the result of a reverse DNS lookup, which could allow remote attackers to bypass intended access restrictions via DNS spoofing."
+        },
+        "metrics": [],
+        "tags": [
+            "dns",
+            "dns spoofing",
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-1261",
+        "datePublished": "2002-05-03T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Avaya Argent Office 2.1 may allow remote attackers to change hold music by spoofing a legitimate server's response to a TFTP broadcast and providing an alternate HoldMusic file."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-1347",
+        "datePublished": "2004-09-01T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Windows 2000 allows local users to cause a denial of service and possibly gain privileges by setting a hardware breakpoint that is handled using global debug registers, which could cause other processes to terminate due to an exception, and allow hijacking of resources such as named pipes."
+        },
+        "metrics": [],
+        "tags": [
+            "hijacking"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-1357",
+        "datePublished": "2002-06-11T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Multiple vulnerabilities in phpMyChat before 0.14.5 exist in (1) input.php3, (2) handle_inputH.php3, or (3) index.lib.php3 with unknown consequences, possibly related to user spoofing or improperly initialized variables."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-1364",
+        "datePublished": "2002-06-11T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Vulnerability in autodns.pl for AutoDNS before 0.0.4 related to domain names that are not fully qualified."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-1443",
+        "datePublished": "2005-04-21T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "KTH Kerberos IV and Kerberos V (Heimdal) for Telnet clients do not encrypt connections if the server does not support the requested encryption, which allows remote attackers to read communications via a man-in-the-middle attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-1444",
+        "datePublished": "2005-04-21T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Kerberos Telnet protocol, as implemented by KTH Kerberos IV and Kerberos V (Heimdal), does not encrypt authentication and encryption options sent from the server, which allows remote attackers to downgrade authentication and encryption mechanisms via a man-in-the-middle attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-1452",
+        "datePublished": "2005-04-21T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "By default, DNS servers on Windows NT 4.0 and Windows 2000 Server cache glue records received from non-delegated name servers, which allows remote attackers to poison the DNS cache via spoofed DNS responses."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-1473",
+        "datePublished": "2005-04-21T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The SSH-1 protocol allows remote servers to conduct man-in-the-middle attacks and replay a client challenge response to a target server by creating a Session ID that matches the Session ID of the target, but which uses a public key pair that is weaker than the target's public key, which allows the attacker to compute the corresponding private key and use the target's Session ID with the compromised key pair to masquerade as the target."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-1474",
+        "datePublished": "2005-04-21T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "SSH before 2.0 disables host key checking when connecting to the localhost, which allows remote attackers to silently redirect connections to the localhost by poisoning the client's DNS cache."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-1488",
+        "datePublished": "2005-06-21T04:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Open Projects Network Internet Relay Chat (IRC) daemon u2.10.05.18 does not perform a double-reverse DNS lookup, which allows remote attackers to spoof any valid hostname on the Internet.  NOTE: a followup post suggests that this is not an issue in the daemon."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-1568",
+        "datePublished": "2005-07-14T04:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "CMG WAP gateway does not verify the fully qualified domain name URL with X.509 certificates from root certificate authorities, which allows remote attackers to spoof SSL certificates via a man-in-the-middle attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2001-1569",
+        "datePublished": "2005-07-14T04:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Openwave WAP gateway does not verify the fully qualified domain name URL with X.509 certificates from root certificate authorities, which allows remote attackers to spoof SSL certificates via a man-in-the-middle attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    }
+]

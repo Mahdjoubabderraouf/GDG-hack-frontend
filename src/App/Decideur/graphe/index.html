@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphique des CVE</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        /* Style général pour la table */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Style pour l'en-tête de table */
+        thead th {
+            background-color: #007bff; /* Couleur principale */
+            color: white;
+            font-weight: 700;
+            padding: 12px;
+            text-transform: uppercase;
+        }
+
+        /* Style pour les lignes de la table */
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f1f1;
+            cursor: pointer;
+        }
+
+        /* Style pour les cellules */
+        td, th {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #dee2e6;
+        }
+
+        /* Style pour le mot-clé */
+        tbody td:first-child {
+            font-weight: bold;
+            background-color: #f8f9fa;
+        }
+
+        /* Style pour le conteneur général */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Style pour le titre */
+        h1 {
+            color: #343a40;
+            font-size: 1.8rem;
+            text-align: center;
+            margin-bottom: 30px;
+            text-transform: capitalize;
+        }
+
+        /* Style pour le graphique */
+        canvas {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        /* Style pour l'en-tête sticky */
+        thead th {
+            position: sticky;
+            top: 0;
+            z-index: 2;
+        }
+
+        /* Conteneur pour le défilement horizontal */
+        .table-wrapper {
+            overflow-x: auto;
+            margin-top: 20px;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+        }
+        /* Ajouter un style sticky pour la première colonne */
+tbody td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background-color: #f8f9fa; /* Couleur de fond pour éviter que le texte chevauche */
+    border-right: 1px solid #dee2e6;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Analyse de l'Évolution des CVE Liées au DNS au Fil des Années</h1>
+        <canvas id="cveChart" class="mb-4"></canvas>
+        <div class="table-wrapper">
+            <div id="tableContainer" class="mt-4"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

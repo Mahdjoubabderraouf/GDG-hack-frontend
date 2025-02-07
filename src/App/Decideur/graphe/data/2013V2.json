@@ -1,0 +1,1751 @@
+[
+    {
+        "cveId": "CVE-2013-0013",
+        "datePublished": "2013-01-09T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The SSL provider component in Microsoft Windows Vista SP2, Windows Server 2008 SP2, R2, and R2 SP1, Windows 7 Gold and SP1, Windows 8, Windows Server 2012, and Windows RT does not properly handle encrypted packets, which allows man-in-the-middle attackers to conduct SSLv2 downgrade attacks against (1) SSLv3 sessions or (2) TLS sessions by intercepting handshakes and injecting content, aka \"Microsoft SSL Version 3 and TLS Protocol Security Feature Bypass Vulnerability.\""
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0198",
+        "datePublished": "2013-03-04T21:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Dnsmasq before 2.66test2, when used with certain libvirt configurations, replies to queries from prohibited interfaces, which allows remote attackers to cause a denial of service (traffic amplification) via spoofed TCP based DNS queries.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2012-3411."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0240",
+        "datePublished": "2013-03-28T17:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Gnome Online Accounts (GOA) 3.4.x, 3.6.x before 3.6.3, and 3.7.x before 3.7.5, does not properly validate SSL certificates when creating accounts such as Windows Live and Facebook accounts, which allows man-in-the-middle attackers to obtain sensitive information such as credentials by sniffing the network."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0253",
+        "datePublished": "2013-04-09T20:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The default configuration of Apache Maven 3.0.4, when using Maven Wagon 2.1, disables SSL certificate checks, which allows remote attackers to spoof servers via a man-in-the-middle (MITM) attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0289",
+        "datePublished": "2014-05-23T14:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Isync 0.4 before 1.0.6, does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0308",
+        "datePublished": "2013-03-08T21:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The imap-send command in GIT before 1.8.1.4 does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0472",
+        "datePublished": "2013-02-21T02:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Web GUI in the client in IBM Tivoli Storage Manager (TSM) 6.3 before 6.3.1.0 and 6.4 before 6.4.0.1 allows man-in-the-middle attackers to obtain unspecified client access, and consequently obtain unspecified server access, via unknown vectors."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0510",
+        "datePublished": "2013-03-29T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "IBM Security AppScan Enterprise 5.6 and 8.x before 8.7 includes a security test that sends session cookies to a specific external server, which allows man-in-the-middle attackers to hijack the test account by capturing these cookies."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0655",
+        "datePublished": "2013-01-21T16:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The client in Schneider Electric Software Update (SESU) Utility 1.0.x and 1.1.x does not ensure that updates have a valid origin, which allows man-in-the-middle attackers to spoof updates, and consequently execute arbitrary code, by modifying the data stream on TCP port 80."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0733",
+        "datePublished": "2014-06-05T20:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Untrusted search path vulnerability in Corel PaintShop Pro X5 and X6 16.0.0.113, 15.2.0.2, and earlier allows local users to execute arbitrary code and conduct DLL hijacking attacks via a Trojan horse dwmapi.dll that is located in the same folder as a .jpg file."
+        },
+        "metrics": [],
+        "tags": [
+            "hijacking"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0776",
+        "datePublished": "2013-02-19T23:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Mozilla Firefox before 19.0, Firefox ESR 17.x before 17.0.3, Thunderbird before 17.0.3, Thunderbird ESR 17.x before 17.0.3, and SeaMonkey before 2.16 allow man-in-the-middle attackers to spoof the address bar by operating a proxy server that provides a 407 HTTP status code accompanied by web script, as demonstrated by a phishing attack on an HTTPS site."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0794",
+        "datePublished": "2013-04-03T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Mozilla Firefox before 20.0 and SeaMonkey before 2.17 do not prevent origin spoofing of tab-modal dialogs, which allows remote attackers to conduct phishing attacks via a crafted web site."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0945",
+        "datePublished": "2013-05-03T10:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "EMC Avamar Client before 6.1.101-89 does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0973",
+        "datePublished": "2013-03-15T01:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Software Update in Apple Mac OS X through 10.7.5 does not prevent plugin loading within the marketing-text WebView, which allows man-in-the-middle attackers to execute plugin code by modifying the client-server data stream."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0991",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0992",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0993",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0994",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0995",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0996",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0997",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0998",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-0999",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1000",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1001",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1002",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1003",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1004",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1005",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1006",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1007",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1008",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1010",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1011",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebKit, as used in Apple iTunes before 11.0.3, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2013-05-16-1."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1014",
+        "datePublished": "2013-05-19T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Apple iTunes before 11.0.3 does not properly verify X.509 certificates, which allows man-in-the-middle attackers to spoof HTTPS servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1028",
+        "datePublished": "2013-09-16T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The IPSec implementation in Apple Mac OS X before 10.8.5, when Hybrid Auth is used, does not verify X.509 certificates from security gateways, which allows man-in-the-middle attackers to spoof security gateways and obtain sensitive information via a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1051",
+        "datePublished": "2013-03-21T17:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "apt 0.8.16, 0.9.7, and possibly other versions does not properly handle InRelease files, which allows man-in-the-middle attackers to modify packages before installation via unknown vectors, possibly related to integrity checking and the use of third-party repositories."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1058",
+        "datePublished": "2013-11-23T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "maas-import-pxe-files in MAAS before 13.10 does not verify the integrity of downloaded files, which allows remote attackers to modify these files via a man-in-the-middle (MITM) attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1124",
+        "datePublished": "2013-02-28T23:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The Cisco Network Admission Control (NAC) agent on Mac OS X does not verify the X.509 certificate of an Identity Services Engine (ISE) server during an SSL session, which allows man-in-the-middle attackers to spoof ISE servers via an arbitrary certificate, aka Bug ID CSCub24309."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1141",
+        "datePublished": "2013-02-28T23:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The mDNS snooping functionality on Cisco Wireless LAN Controller (WLC) devices with software 7.4.1.54 and earlier does not properly manage buffers, which allows remote authenticated users to cause a denial of service (device reload) via crafted mDNS packets, aka Bug ID CSCue04153."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1152",
+        "datePublished": "2013-04-11T10:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Cisco Adaptive Security Appliances (ASA) devices with software 9.0 before 9.0(1.2) allow remote attackers to cause a denial of service (device reload) via a crafted field in a DNS message, aka Bug ID CSCuc80080."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1212",
+        "datePublished": "2013-05-29T19:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The SSL functionality in Cisco NX-OS on the Nexus 1000V does not properly verify X.509 certificates, which allows man-in-the-middle attackers to spoof servers, and intercept or modify Virtual Supervisor Module (VSM) to VMware vCenter communication, via a crafted certificate, aka Bug ID CSCud14837."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1228",
+        "datePublished": "2013-09-06T10:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Cisco Jabber on Windows does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and modify the client-server data stream via a crafted certificate, aka Bug ID CSCug30280."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1336",
+        "datePublished": "2013-05-15T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Common Language Runtime (CLR) in Microsoft .NET Framework 2.0 SP2, 3.5, 3.5.1, 4, and 4.5 does not properly check signatures, which allows remote attackers to make undetected changes to signed XML documents via unspecified vectors that preserve signature validity, aka \"XML Digital Signature Spoofing Vulnerability.\""
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1361",
+        "datePublished": "2014-01-21T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Untrusted search path vulnerability in Lenovo Thinkpad Bluetooth with Enhanced Data Rate Software 6.4.0.2900 and earlier allows local users, and possibly remote attackers, to execute arbitrary code and conduct DLL hijacking attacks via a Trojan horse DLL that is located in the same folder as a file that is processed by Lenovo Bluetooth."
+        },
+        "metrics": [],
+        "tags": [
+            "hijacking"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1431",
+        "datePublished": "2013-09-23T20:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Wocky module in Telepathy Gabble before 0.16.6 and 0.17.x before 0.17.4, when connecting to a \"legacy Jabber server,\" does not properly enforce the WockyConnector:tls-required flag, which allows remote attackers to bypass TLS verification and perform a man-in-the-middle attacks."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1629",
+        "datePublished": "2013-08-06T01:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "pip before 1.3 uses HTTP to retrieve packages from the PyPI repository, and does not perform integrity checks on package contents, which allows man-in-the-middle attackers to execute arbitrary code via a crafted response to a \"pip install\" operation."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1630",
+        "datePublished": "2013-08-06T01:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "pyshop before 0.7.1 uses HTTP to retrieve packages from the PyPI repository, and does not perform integrity checks on package contents, which allows man-in-the-middle attackers to execute arbitrary code via a crafted response to a download operation."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1633",
+        "datePublished": "2013-08-06T01:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "easy_install in setuptools before 0.7 uses HTTP to retrieve packages from the PyPI repository, and does not perform integrity checks on package contents, which allows man-in-the-middle attackers to execute arbitrary code via a crafted response to the default use of the product."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1651",
+        "datePublished": "2013-09-05T10:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "OXUpdater in Open-Xchange Server before 6.20.7 rev14, 6.22.0 before rev13, and 6.22.1 before rev14 does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof update servers and install arbitrary software via a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1659",
+        "datePublished": "2013-02-22T20:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "VMware vCenter Server 4.0 before Update 4b, 5.0 before Update 2, and 5.1 before 5.1.0b; VMware ESXi 3.5 through 5.1; and VMware ESX 3.5 through 4.1 do not properly implement the Network File Copy (NFC) protocol, which allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption) by modifying the client-server data stream."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1661",
+        "datePublished": "2013-09-04T01:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "VMware ESXi 4.0 through 5.1, and ESX 4.0 and 4.1, does not properly implement the Network File Copy (NFC) protocol, which allows man-in-the-middle attackers to cause a denial of service (unhandled exception and application crash) by modifying the client-server data stream."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1709",
+        "datePublished": "2013-08-07T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Mozilla Firefox before 23.0, Firefox ESR 17.x before 17.0.8, Thunderbird before 17.0.8, Thunderbird ESR 17.x before 17.0.8, and SeaMonkey before 2.20 do not properly handle the interaction between FRAME elements and history, which allows remote attackers to conduct cross-site scripting (XSS) attacks via vectors involving spoofing a relative location in a previously visited document."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1740",
+        "datePublished": "2014-01-18T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The ssl_Do1stHandshake function in sslsecur.c in libssl in Mozilla Network Security Services (NSS) before 3.15.4, when the TLS False Start feature is enabled, allows man-in-the-middle attackers to spoof SSL servers by using an arbitrary X.509 certificate during certain handshake traffic."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1799",
+        "datePublished": "2013-03-28T17:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Gnome Online Accounts (GOA) 3.6.x before 3.6.3 and 3.7.x before 3.7.91, does not properly validate SSL certificates when creating accounts for providers who use the libsoup library, which allows man-in-the-middle attackers to obtain sensitive information such as credentials by sniffing the network.  NOTE: this issue exists because of an incomplete fix for CVE-2013-0240."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1909",
+        "datePublished": "2013-08-23T16:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The Python client in Apache Qpid before 2.2 does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-1923",
+        "datePublished": "2014-01-21T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "rpc-gssd in nfs-utils before 1.2.8 performs reverse DNS resolution for server names during GSSAPI authentication, which might allow remote attackers to read otherwise-restricted files via DNS spoofing attacks."
+        },
+        "metrics": [],
+        "tags": [
+            "dns",
+            "dns spoofing",
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-2037",
+        "datePublished": "2014-01-18T21:00:00",
+        "description": {
+            "lang": "en",
+            "value": "httplib2 0.7.2, 0.8, and earlier, after an initial connection is made, does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-2052",
+        "datePublished": "2013-07-09T17:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Buffer overflow in the atodn function in libreswan 3.0 and 3.1, when Opportunistic Encryption is enabled and an RSA key is being used, allows remote attackers to cause a denial of service (pluto IKE daemon crash) and possibly execute arbitrary code via crafted DNS TXT records.  NOTE: this might be the same vulnerability as CVE-2013-2053 and CVE-2013-2054."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-2053",
+        "datePublished": "2013-07-09T17:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Buffer overflow in the atodn function in Openswan before 2.6.39, when Opportunistic Encryption is enabled and an RSA key is being used, allows remote attackers to cause a denial of service (pluto IKE daemon crash) and possibly execute arbitrary code via crafted DNS TXT records.  NOTE: this might be the same vulnerability as CVE-2013-2052 and CVE-2013-2054."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-2054",
+        "datePublished": "2013-07-09T17:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Buffer overflow in the atodn function in strongSwan 2.0.0 through 4.3.4, when Opportunistic Encryption is enabled and an RSA key is being used, allows remote attackers to cause a denial of service (pluto IKE daemon crash) and possibly execute arbitrary code via crafted DNS TXT records.  NOTE: this might be the same vulnerability as CVE-2013-2053 and CVE-2013-2054."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-2073",
+        "datePublished": "2014-05-02T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Transifex command-line client before 0.9 does not validate X.509 certificates, which allows man-in-the-middle attackers to spoof a Transifex server via an arbitrary certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-2100",
+        "datePublished": "2014-09-29T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The urlopen function in pym/portage/util/_urlopen.py in Gentoo Portage 2.1.12, when using HTTPS, does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and modify binary package lists via a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-2191",
+        "datePublished": "2014-02-08T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "python-bugzilla before 0.9.0 does not validate X.509 certificates, which allows man-in-the-middle attackers to spoof Bugzilla servers via a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-2192",
+        "datePublished": "2014-01-24T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The RPC protocol implementation in Apache Hadoop 2.x before 2.0.6-alpha, 0.23.x before 0.23.9, and 1.x before 1.2.1, when the Kerberos security features are enabled, allows man-in-the-middle attackers to disable bidirectional authentication and obtain sensitive information by forcing a downgrade to simple authentication."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-2193",
+        "datePublished": "2014-05-29T14:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Apache HBase 0.92.x before 0.92.3 and 0.94.x before 0.94.9, when the Kerberos features are enabled, allows man-in-the-middle attackers to disable bidirectional authentication and obtain sensitive information via unspecified vectors."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-2204",
+        "datePublished": "2013-07-08T20:00:00",
+        "description": {
+            "lang": "en",
+            "value": "moxieplayer.as in Moxiecode moxieplayer, as used in the TinyMCE Media plugin in WordPress before 3.5.2 and other products, does not consider the presence of a # (pound sign) character during extraction of the QUERY_STRING, which allows remote attackers to pass arbitrary parameters to a Flash application, and conduct content-spoofing attacks, via a crafted string after a ? (question mark) character."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-2233",
+        "datePublished": "2018-05-04T20:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Ansible before 1.2.1 makes it easier for remote attackers to conduct man-in-the-middle attacks by leveraging failure to cache SSH host keys."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-2266",
+        "datePublished": "2013-03-28T16:00:00",
+        "description": {
+            "lang": "en",
+            "value": "libdns in ISC BIND 9.7.x and 9.8.x before 9.8.4-P2, 9.8.5 before 9.8.5b2, 9.9.x before 9.9.2-P2, and 9.9.3 before 9.9.3b2 on UNIX platforms allows remote attackers to cause a denial of service (memory consumption) via a crafted regular expression, as demonstrated by a memory-exhaustion attack against a machine running a named process."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-2319",
+        "datePublished": "2013-06-10T17:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "FileMaker Pro before 12 and Pro Advanced before 12 does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-2494",
+        "datePublished": "2013-03-28T16:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "libdns in ISC DHCP 4.2.x before 4.2.5-P1 allows remote name servers to cause a denial of service (memory consumption) via vectors involving a regular expression, as demonstrated by a memory-exhaustion attack against a machine running a dhcpd process, a related issue to CVE-2013-2266."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-2499",
+        "datePublished": "2020-01-27T21:51:20",
+        "description": {
+            "lang": "en",
+            "value": "SimpleHRM 2.3 and earlier could allow remote attackers to bypass the authentication process in 'user_manager.php' via spoofing a cookie."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-2770",
+        "datePublished": "2013-04-07T17:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The installation functionality in the Novell Kanaka component before 2.8 for Novell Open Enterprise Server (OES) on Mac OS X does not verify the server's X.509 certificate during an SSL session, which allows man-in-the-middle attackers to spoof servers via an arbitrary certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-2853",
+        "datePublished": "2013-07-10T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The HTTPS implementation in Google Chrome before 28.0.1500.71 does not ensure that headers are terminated by \\r\\n\\r\\n (carriage return, newline, carriage return, newline), which allows man-in-the-middle attackers to have an unspecified impact via vectors that trigger header truncation."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-2953",
+        "datePublished": "2013-05-27T14:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "IBM InfoSphere Optim Data Growth for Oracle E-Business Suite 6.x, 7.x, and 9.x before 9.1.0.3 relies on the MD5 algorithm for signatures in X.509 certificates, which makes it easier for man-in-the-middle attackers to spoof SSL servers via a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-3041",
+        "datePublished": "2013-10-01T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Web Client in IBM Rational ClearQuest 7.1 before 7.1.2.12, 8.0 before 8.0.0.8, and 8.0.1 before 8.0.1.1 allows remote attackers to obtain sensitive information from the client-server data stream via unspecified vectors associated with a \"JSON hijacking attack.\""
+        },
+        "metrics": [],
+        "tags": [
+            "hijacking"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-3046",
+        "datePublished": "2014-05-26T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Meeting Server in IBM Sametime 8.x through 8.5.2.1 and 9.x through 9.0.0.1 does not send the HSTS Strict-Transport-Security header, which makes it easier for man-in-the-middle attackers to hijack sessions or obtain sensitive information by leveraging the presence of HTTP requests."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-3587",
+        "datePublished": "2020-02-21T17:11:47",
+        "description": {
+            "lang": "en",
+            "value": "The HTTPS protocol, as used in unspecified web applications, can encrypt compressed data without properly obfuscating the length of the unencrypted data, which makes it easier for man-in-the-middle attackers to obtain plaintext secret values by observing length differences during a series of guesses in which a string in an HTTP request URL potentially matches an unknown string in an HTTP response body, aka a \"BREACH\" attack, a different issue than CVE-2012-4929."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-3641",
+        "datePublished": "2013-06-10T17:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The Pizza Hut Japan Official Order application before 1.1.1.a for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-3694",
+        "datePublished": "2013-11-16T02:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "BlackBerry Link before 1.2.1.31 on Windows and before 1.1.1 build 39 on Mac OS X does not require authentication for remote file-access folders, which allows remote attackers to read or create arbitrary files via IPv6 WebDAV requests, as demonstrated by a CSRF attack involving DNS rebinding."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-3734",
+        "datePublished": "2017-10-24T15:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Embedded Jopr component in JBoss Application Server includes the cleartext datasource password in unspecified HTML responses, which might allow (1) man-in-the-middle attackers to obtain sensitive information by leveraging failure to use SSL or (2) attackers to obtain sensitive information by reading the HTML source code.  NOTE: the vendor says that this does not cross a trust boundary and that it is recommended best-practice that SSL is configured for the administrative console"
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-3876",
+        "datePublished": "2013-11-16T02:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "DirectAccess in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 does not properly verify server X.509 certificates, which allows man-in-the-middle attackers to spoof servers and read encrypted domain credentials via a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-3970",
+        "datePublished": "2013-06-13T00:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Juniper Junos Pulse Secure Access Service (aka SSL VPN) with IVE OS 7.0r2 through 7.0r8 and 7.1r1 through 7.1r5 and Junos Pulse Access Control Service (aka UAC) with UAC OS 4.1r1 through 4.1r5 include a test Certification Authority (CA) certificate in the Trusted Server CAs list, which makes it easier for man-in-the-middle attackers to spoof SSL servers by leveraging control over that test CA."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-3989",
+        "datePublished": "2013-10-25T20:00:00",
+        "description": {
+            "lang": "en",
+            "value": "IBM Security AppScan Enterprise 8.x before 8.8 sends a cleartext AppScan Source database password in a response, which allows remote authenticated users to obtain sensitive information, and subsequently conduct man-in-the-middle attacks, by examining the response content."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4061",
+        "datePublished": "2013-09-09T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "IBM Rational Policy Tester 8.5 before 8.5.0.5 does not properly check authorization for changes to the set of authentication hosts, which allows remote authenticated users to perform spoofing attacks involving an HTTP redirect via unspecified vectors."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4062",
+        "datePublished": "2013-09-09T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "IBM Rational Policy Tester 8.5 before 8.5.0.5 does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof Jazz Team servers, obtain sensitive information, and modify the client-server data stream via a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4073",
+        "datePublished": "2013-08-18T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The OpenSSL::SSL.verify_certificate_identity function in lib/openssl/ssl.rb in Ruby 1.8 before 1.8.7-p374, 1.9 before 1.9.3-p448, and 2.0 before 2.0.0-p247 does not properly handle a '\\0' character in a domain name in the Subject Alternative Name field of an X.509 certificate, which allows man-in-the-middle attackers to spoof arbitrary SSL servers via a crafted certificate issued by a legitimate Certification Authority, a related issue to CVE-2009-2408."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4111",
+        "datePublished": "2013-08-28T17:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Python client library for Glance (python-glanceclient) before 0.10.0 does not properly check the preverify_ok value, which prevents the server hostname from being verified with a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate and allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4115",
+        "datePublished": "2013-08-09T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Buffer overflow in the idnsALookup function in dns_internal.cc in Squid 3.2 through 3.2.11 and 3.3 through 3.3.6 allows remote attackers to cause a denial of service (memory corruption and server termination) via a long name in a DNS lookup request."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4238",
+        "datePublished": "2013-08-18T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The ssl.match_hostname function in the SSL module in Python 2.6 through 3.4 does not properly handle a '\\0' character in a domain name in the Subject Alternative Name field of an X.509 certificate, which allows man-in-the-middle attackers to spoof arbitrary SSL servers via a crafted certificate issued by a legitimate Certification Authority, a related issue to CVE-2009-2408."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4248",
+        "datePublished": "2013-08-18T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The openssl_x509_parse function in openssl.c in the OpenSSL module in PHP before 5.4.18 and 5.5.x before 5.5.2 does not properly handle a '\\0' character in a domain name in the Subject Alternative Name field of an X.509 certificate, which allows man-in-the-middle attackers to spoof arbitrary SSL servers via a crafted certificate issued by a legitimate Certification Authority, a related issue to CVE-2009-2408."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4300",
+        "datePublished": "2013-09-25T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The scm_check_creds function in net/core/scm.c in the Linux kernel before 3.11 performs a capability check in an incorrect namespace, which allows local users to gain privileges via PID spoofing."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4314",
+        "datePublished": "2013-09-30T21:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The X509Extension in pyOpenSSL before 0.13.1 does not properly handle a '\\0' character in a domain name in the Subject Alternative Name field of an X.509 certificate, which allows man-in-the-middle attackers to spoof arbitrary SSL servers via a crafted certificate issued by a legitimate Certification Authority."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4436",
+        "datePublished": "2013-11-05T18:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The default configuration for salt-ssh in Salt (aka SaltStack) 0.17.0 does not validate the SSH host key of requests, which allows remote attackers to have unspecified impact via a man-in-the-middle (MITM) attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4488",
+        "datePublished": "2014-10-10T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "libgadu before 1.12.0 does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4545",
+        "datePublished": "2013-11-23T11:00:00",
+        "description": {
+            "lang": "en",
+            "value": "cURL and libcurl 7.18.0 through 7.32.0, when built with OpenSSL, disables the certificate CN and SAN name field verification (CURLOPT_SSL_VERIFYHOST) when the digital signature verification (CURLOPT_SSL_VERIFYPEER) is disabled, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4579",
+        "datePublished": "2013-11-19T15:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The ath9k_htc_set_bssid_mask function in drivers/net/wireless/ath/ath9k/htc_drv_main.c in the Linux kernel through 3.12 uses a BSSID masking approach to determine the set of MAC addresses on which a Wi-Fi device is listening, which allows remote attackers to discover the original MAC address after spoofing by sending a series of packets to MAC addresses with certain bit manipulations."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4651",
+        "datePublished": "2013-07-31T18:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Siemens Scalance W7xx devices with firmware before 4.5.4 use the same hardcoded X.509 certificate across different customers' installations, which makes it easier for remote attackers to conduct man-in-the-middle attacks against SSL sessions by leveraging the certificate's trust relationship."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4669",
+        "datePublished": "2013-06-25T14:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "FortiClient before 4.3.5.472 on Windows, before 4.0.3.134 on Mac OS X, and before 4.0 on Android; FortiClient Lite before 4.3.4.461 on Windows; FortiClient Lite 2.0 through 2.0.0223 on Android; and FortiClient SSL VPN before 4.0.2258 on Linux proceed with an SSL session after determining that the server's X.509 certificate is invalid, which allows man-in-the-middle attackers to obtain sensitive information by leveraging a password transmission that occurs before the user warning about the certificate problem."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4699",
+        "datePublished": "2013-08-21T16:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The Yahoo! Japan Yafuoku! application 4.3.0 and earlier for iOS and Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4700",
+        "datePublished": "2013-08-21T16:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The Yahoo! Japan Shopping application 1.4 and earlier for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4769",
+        "datePublished": "2014-12-26T23:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The cloud controller (aka CLC) component in Eucalyptus 3.3.x and 3.4.x before 3.4.2, when the dns.recursive.enabled setting is used, allows remote attackers to cause a denial of service (traffic amplification) via spoofed DNS queries."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4854",
+        "datePublished": "2013-07-26T23:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The RFC 5011 implementation in rdata.c in ISC BIND 9.7.x and 9.8.x before 9.8.5-P2, 9.8.6b1, 9.9.x before 9.9.3-P2, and 9.9.4b1, and DNSco BIND 9.9.3-S1 before 9.9.3-S1-P1 and 9.9.4-S1b1, allows remote attackers to cause a denial of service (assertion failure and named daemon exit) via a query with a malformed RDATA section that is not properly handled during construction of a log message, as exploited in the wild in July 2013."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4867",
+        "datePublished": "2019-12-27T16:31:35",
+        "description": {
+            "lang": "en",
+            "value": "Electronic Arts Karotz Smart Rabbit 12.07.19.00 allows Python module hijacking"
+        },
+        "metrics": [],
+        "tags": [
+            "hijacking"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4872",
+        "datePublished": "2013-07-18T14:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Google Glass before XE6 does not properly restrict the processing of QR codes, which allows physically proximate attackers to modify the configuration or redirect users to arbitrary web sites via a crafted symbol, as demonstrated by selecting a Wi-Fi access point in order to conduct a man-in-the-middle attack."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4962",
+        "datePublished": "2013-08-20T22:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The reset password page in Puppet Enterprise before 3.0.1 does not force entry of the current password, which allows attackers to modify user passwords by leveraging session hijacking, an unattended workstation, or other vectors."
+        },
+        "metrics": [],
+        "tags": [
+            "hijacking"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-4966",
+        "datePublished": "2014-03-07T20:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The master external node classification script in Puppet Enterprise before 3.2.0 does not verify the identity of consoles, which allows remote attackers to create arbitrary classifications on the master by spoofing a console."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-5054",
+        "datePublished": "2013-12-11T00:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Microsoft Office 2013 and 2013 RT allows remote attackers to discover authentication tokens via a crafted response to a file-open request for an Office file on a web site, as exploited in the wild in 2013, aka \"Token Hijacking Vulnerability.\""
+        },
+        "metrics": [],
+        "tags": [
+            "hijacking"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-5119",
+        "datePublished": "2013-09-23T20:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "Zimbra Collaboration Suite (ZCS) 6.0.16 and earlier allows man-in-the-middle attackers to obtain access by sniffing the network and replaying the ZM_AUTH_TOKEN token."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-5123",
+        "datePublished": "2019-11-05T21:16:59",
+        "description": {
+            "lang": "en",
+            "value": "The mirroring support (-M, --use-mirrors) in Python Pip before 1.5 uses insecure DNS querying and authenticity checks which allows attackers to perform man-in-the-middle attacks."
+        },
+        "metrics": [],
+        "tags": [
+            "dns",
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-5143",
+        "datePublished": "2013-10-24T10:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The RADIUS service in Server App in Apple OS X Server before 3.0 selects a fallback X.509 certificate in unspecified circumstances, which might allow man-in-the-middle attackers to hijack RADIUS sessions by leveraging knowledge of the private key that matches this fallback certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-5223",
+        "datePublished": "2013-11-15T20:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Multiple cross-site scripting (XSS) vulnerabilities in D-Link DSL-2760U Gateway (Rev. E1) allow remote authenticated users to inject arbitrary web script or HTML via the (1) ntpServer1 parameter to sntpcfg.cgi, username parameter to (2) ddnsmngr.cmd or (3) todmngr.tod, (4) TodUrlAdd parameter to urlfilter.cmd, (5) appName parameter to scprttrg.cmd, (6) fltName in an add action or (7) rmLst parameter in a remove action to scoutflt.cmd, (8) groupName parameter to portmapcfg.cmd, (9) snmpRoCommunity parameter to snmpconfig.cgi, (10) fltName parameter to scinflt.cmd, (11) PolicyName in an add action or (12) rmLst parameter in a remove action to prmngr.cmd, (13) ippName parameter to ippcfg.cmd, (14) smbNetBiosName or (15) smbDirName parameter to samba.cgi, or (16) wlSsid parameter to wlcfg.wl."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-5450",
+        "datePublished": "2013-11-13T15:00:00",
+        "description": {
+            "lang": "en",
+            "value": "IBM Security AppScan Enterprise 8.5 through 8.7.0.1, when Jazz authentication is enabled, allows man-in-the-middle attackers to obtain sensitive information or modify data by leveraging an improperly protected URL to obtain a session token."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-5479",
+        "datePublished": "2013-09-27T10:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The DNS-over-TCP implementation in Cisco IOS 12.2 and 15.0 through 15.3, when NAT is used, allows remote attackers to cause a denial of service (device reload) via a crafted IPv4 DNS TCP stream, aka Bug ID CSCtn53730."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-5480",
+        "datePublished": "2013-09-27T10:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The DNS-over-TCP implementation in Cisco IOS 12.2 and 15.0 through 15.3, when NAT is used, allows remote attackers to cause a denial of service (device reload) via a crafted IPv4 DNS TCP stream, aka Bug ID CSCuf28733."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-5513",
+        "datePublished": "2013-10-13T10:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Cisco Adaptive Security Appliance (ASA) Software 8.2.x before 8.2(5.46), 8.3.x before 8.3(2.39), 8.4.x before 8.4(7), 8.5.x before 8.5(1.18), 8.6.x before 8.6(1.12), 8.7.x before 8.7(1.7), 9.0.x before 9.0(3.3), and 9.1.x before 9.1(1.8), when the DNS ALPI engine is enabled for TCP, allows remote attackers to cause a denial of service (device reload) via crafted TCP DNS packets, aka Bug ID CSCug03975."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-5661",
+        "datePublished": "2019-11-05T18:14:31",
+        "description": {
+            "lang": "en",
+            "value": "Cache Poisoning issue exists in DNS Response Rate Limiting."
+        },
+        "metrics": [],
+        "tags": [
+            "dns",
+            "cache poisoning"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-5703",
+        "datePublished": "2013-10-22T22:00:00Z",
+        "description": {
+            "lang": "en",
+            "value": "The DrayTek Vigor 2700 router 2.8.3 allows remote attackers to execute arbitrary JavaScript code, and modify settings or the DNS cache, via a crafted SSID value that is not properly handled during insertion into the sWlessSurvey value in variables.js."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-5946",
+        "datePublished": "2013-12-19T02:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The runShellCmd function in systemCheck.htm in D-Link DSR-150 with firmware before 1.08B44; DSR-150N with firmware before 1.05B64; DSR-250 and DSR-250N with firmware before 1.08B44; and DSR-500, DSR-500N, DSR-1000, and DSR-1000N with firmware before 1.08B77 allows remote attackers to execute arbitrary commands via shell metacharacters in the (1) \"Ping or Trace an IP Address\" or (2) \"Perform a DNS Lookup\" section."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-5999",
+        "datePublished": "2013-11-22T17:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Kingsoft KDrive Personal before 1.21.0.1880 on Windows does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-6396",
+        "datePublished": "2014-02-18T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The OpenStack Python client library for Swift (python-swiftclient) 1.0 through 1.9.0 does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-6418",
+        "datePublished": "2014-05-05T17:00:00",
+        "description": {
+            "lang": "en",
+            "value": "PyWBEM 0.7 and earlier uses a separate connection to validate X.509 certificates, which allows man-in-the-middle attackers to spoof a peer via an arbitrary certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-6419",
+        "datePublished": "2014-01-07T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Interaction error in OpenStack Nova and Neutron before Havana 2013.2.1 and icehouse-1 does not validate the instance ID of the tenant making a request, which allows remote tenants to obtain sensitive metadata by spoofing the device ID that is bound to a port, which is not properly handled by (1) api/metadata/handler.py in Nova and (2) the neutron-metadata-agent (agent/metadata/agent.py) in Neutron."
+        },
+        "metrics": [],
+        "tags": [
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-6422",
+        "datePublished": "2013-12-23T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The GnuTLS backend in libcurl 7.21.4 through 7.33.0, when disabling digital signature verification (CURLOPT_SSL_VERIFYPEER), also disables the CURLOPT_SSL_VERIFYHOST check for CN or SAN host name fields, which makes it easier for remote attackers to spoof servers and conduct man-in-the-middle (MITM) attacks."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "mitm"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-6427",
+        "datePublished": "2013-12-09T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "upgrade.py in the hp-upgrade service in HP Linux Imaging and Printing (HPLIP) 3.x through 3.13.11 launches a program from an http URL, which allows man-in-the-middle attackers to execute arbitrary code by gaining control over the client-server data stream."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-6434",
+        "datePublished": "2014-01-24T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The remote-viewer in Red Hat Enterprise Virtualization Manager (RHEV-M) before 3.3, when using a native SPICE client invocation method, initially makes insecure connections to the SPICE server, which allows man-in-the-middle attackers to spoof the SPICE server."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-6444",
+        "datePublished": "2014-05-05T17:00:00",
+        "description": {
+            "lang": "en",
+            "value": "PyWBEM 0.7 and earlier does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-6450",
+        "datePublished": "2014-01-01T15:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The DTLS retransmission implementation in OpenSSL 1.0.0 before 1.0.0l and 1.0.1 before 1.0.1f does not properly maintain data structures for digest and encryption contexts, which might allow man-in-the-middle attackers to trigger the use of a different context and cause a denial of service (application crash) by interfering with packet delivery, related to ssl/d1_both.c and ssl/t1_enc.c."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-6673",
+        "datePublished": "2013-12-11T15:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Mozilla Firefox before 26.0, Firefox ESR 24.x before 24.2, Thunderbird before 24.2, and SeaMonkey before 2.23 do not recognize a user's removal of trust from an EV X.509 certificate, which makes it easier for man-in-the-middle attackers to spoof SSL servers in opportunistic circumstances via a valid certificate that is unacceptable to the user."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-6696",
+        "datePublished": "2013-12-02T22:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Cisco Adaptive Security Appliance (ASA) Software does not properly handle errors during the processing of DNS responses, which allows remote attackers to cause a denial of service (device reload) via a malformed response, aka Bug ID CSCuj28861."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-6806",
+        "datePublished": "2014-05-19T14:00:00",
+        "description": {
+            "lang": "en",
+            "value": "OpenText Exceed OnDemand (EoD) 8 allows man-in-the-middle attackers to disable bidirectional authentication and obtain sensitive information via a crafted string in a response, which triggers a downgrade to simple authentication that sends credentials in plaintext."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-6807",
+        "datePublished": "2014-05-19T14:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The client in OpenText Exceed OnDemand (EoD) 8 supports anonymous ciphers by default, which allows man-in-the-middle attackers to bypass server certificate validation, redirect a connection, and obtain sensitive information via crafted responses."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-6812",
+        "datePublished": "2013-12-28T02:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The ONEDC app before 1.7 for iOS does not properly verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-6950",
+        "datePublished": "2014-02-22T21:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Belkin WeMo Home Automation firmware before 3949 does not use SSL for the distribution feed, which allows man-in-the-middle attackers to install arbitrary firmware by spoofing a distribution server."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle",
+            "spoofing"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-6951",
+        "datePublished": "2014-02-22T21:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The Belkin WeMo Home Automation firmware before 3949 does not maintain a set of Certification Authority public keys, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary X.509 certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-7110",
+        "datePublished": "2014-05-02T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Transifex command-line client before 0.10 does not validate X.509 certificates for data transfer connections, which allows man-in-the-middle attackers to spoof a Transifex server via an arbitrary certificate.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2013-2073."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-7144",
+        "datePublished": "2014-08-16T01:00:00",
+        "description": {
+            "lang": "en",
+            "value": "LINE 3.2.1.83 and earlier on Windows and 3.2.1 and earlier on OS X does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-7201",
+        "datePublished": "2018-04-27T16:00:00",
+        "description": {
+            "lang": "en",
+            "value": "WebHybridClient.java in PayPal 5.3 and earlier for Android ignores SSL errors, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-7293",
+        "datePublished": "2014-01-15T02:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The ASUS WL-330NUL router has a configuration process that relies on accessing the 192.168.1.1 IP address, but the documentation advises users to instead access a DNS hostname that does not always resolve to 192.168.1.1, which makes it easier for remote attackers to hijack the configuration traffic by controlling the server associated with that hostname."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-7304",
+        "datePublished": "2014-01-22T19:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Check Point Endpoint Security MI Server through R73 3.0.0 HFA2.5 does not configure X.509 certificate validation for client devices, which allows man-in-the-middle attackers to spoof SSL servers by presenting an arbitrary certificate during a session established by a client."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-7397",
+        "datePublished": "2015-06-24T16:00:00",
+        "description": {
+            "lang": "en",
+            "value": "Async Http Client (aka AHC or async-http-client) before 1.9.0 skips X.509 certificate verification unless both a keyStore location and a trustStore location are explicitly set, which allows man-in-the-middle attackers to spoof HTTPS servers by presenting an arbitrary certificate during use of a typical AHC configuration, as demonstrated by a configuration that does not send client certificates."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-7398",
+        "datePublished": "2015-06-24T16:00:00",
+        "description": {
+            "lang": "en",
+            "value": "main/java/com/ning/http/client/AsyncHttpClientConfig.java in Async Http Client (aka AHC or async-http-client) before 1.9.0 does not require a hostname match during verification of X.509 certificates, which allows man-in-the-middle attackers to spoof HTTPS servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-7423",
+        "datePublished": "2015-02-24T15:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The send_dg function in resolv/res_send.c in GNU C Library (aka glibc or libc6) before 2.20 does not properly reuse file descriptors, which allows remote attackers to send DNS queries to unintended locations via a large number of requests that trigger a call to the getaddrinfo function."
+        },
+        "metrics": [],
+        "tags": [
+            "dns"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-7440",
+        "datePublished": "2016-06-07T18:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The ssl.match_hostname function in CPython (aka Python) before 2.7.9 and 3.x before 3.3.3 does not properly handle wildcards in hostnames, which might allow man-in-the-middle attackers to spoof servers via a crafted certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    },
+    {
+        "cveId": "CVE-2013-7449",
+        "datePublished": "2016-04-21T14:00:00",
+        "description": {
+            "lang": "en",
+            "value": "The ssl_do_connect function in common/server.c in HexChat before 2.10.2, XChat, and XChat-GNOME does not verify that the server hostname matches a domain name in the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate."
+        },
+        "metrics": [],
+        "tags": [
+            "Man-in-the-middle"
+        ]
+    }
+]
