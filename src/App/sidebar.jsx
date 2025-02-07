@@ -52,9 +52,9 @@ export default function AppSidebar({ general }) {
       role: "HR Manager",
       Links: [
         {
-          title: "Event",
+          title: "Events",
           icon: Search,
-          url: "event"
+          url: ""
         },
         {
           title: "Track members",

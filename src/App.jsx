@@ -3,6 +3,7 @@ import LoginPage from "./App/LoginPage";
 import { Route, Routes } from "react-router-dom";
 import { createContext, useState } from "react";
 import Layout from "./App/layout";
+import Events from "./App/events";
 
 export const Active = createContext();
 
@@ -23,7 +24,7 @@ function App() {
         <Route exact path="/" element={<MainRoute />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/hrmanager" element={<Layout />}>
-          <Route path="event" element={<div>First div of hr</div>} />
+          <Route path="" element={<Events />} />
           <Route path="members" element={<div>Second div of hr</div>} />
         </Route>
       </Routes>
