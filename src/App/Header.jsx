@@ -1,8 +1,6 @@
 import { SidebarTrigger } from "@/components/ui/sidebar";
 import React, { useState, useEffect } from "react";
-import React, { useState, useEffect } from "react";
 import notification from "@/assets/notification.svg";
-import help from "@/assets/help.svg";
 import { Button } from "@/components/ui/button";
 import profile from "@/assets/profile.svg";
 import { Profile } from "@/components/ui/Profile";
@@ -42,7 +40,7 @@ function Header() {
   }, []);
 
   return (
-    <div className="flex p-2 gap-5 items-center w-full justify-between">
+    <div className="flex p-2 gap-5 items-center w-full justify-between border-b-2 border-second">
       <div className="flex flex-1 gap-5 items-center justify-between">
         <SidebarTrigger />
         <div className="flex-1">

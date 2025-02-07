@@ -12,7 +12,6 @@ export default function Layout() {
       <AppSidebar />
       <main className="w-full">
         <Header />
-        <div className="py-0.5 rounded-xl bg-second mx-3"></div>
         <div className="pl-16 py-5 pr-3">
           <Outlet />
         </div>

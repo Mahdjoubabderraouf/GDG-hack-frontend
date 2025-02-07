@@ -22,7 +22,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<MainRoute />} />
         <Route path="/login" element={<LoginPage />} />
-        <Route path="/hrmanger" element={<Layout />}>
+        <Route path="/hrmanager" element={<Layout />}>
           <Route path="event" element={<div>First div of hr</div>} />
           <Route path="members" element={<div>Second div of hr</div>} />
         </Route>
