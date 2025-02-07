@@ -9,7 +9,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-  SidebarHeader,
+  SidebarHeader
 } from "@/components/ui/sidebar";
 import TrackDns from "@/assets/TrackDns.svg";
 
@@ -22,34 +22,34 @@ const navigation = {
     {
       title: "Searching",
       icon: Search,
-      url: "/veilleur/searching",
+      url: "/veilleur/searching"
     },
     {
       title: "Results",
       icon: FileText,
-      url: "/veilleur/results",
-    },
+      url: "/veilleur/results"
+    }
   ],
   support: [
     {
       title: "Settings",
       icon: Settings,
-      url: "#",
+      url: "#"
     },
     {
       title: "Help center",
       icon: Headphones,
-      url: "#",
-    },
+      url: "#"
+    }
   ],
   logout: {
     title: "Log out",
     icon: LogOut,
-    url: "#",
-  },
+    url: "#"
+  }
 };
 
-export default function AppSidebar() {
+export default function AppSidebar({}) {
   const { activeItem, setActiveItem } = useContext(Active);
   const navigate = useNavigate();
 
@@ -63,8 +63,8 @@ export default function AppSidebar() {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `${token}`,
-        },
+          Authorization: `${token}`
+        }
       });
       if (!response.ok) {
         throw new Error("failed to logout");
