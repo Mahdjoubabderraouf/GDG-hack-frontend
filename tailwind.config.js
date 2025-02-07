@@ -1,4 +1,4 @@
-const {nextui} = require('@nextui-org/theme');
+const { nextui } = require("@nextui-org/theme");
 /* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -6,7 +6,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/@nextui-org/theme/dist/components/(button|modal|popover|ripple|spinner).js"
+    "./node_modules/@nextui-org/theme/dist/components/(button|modal|popover|ripple|spinner).js",
   ],
   theme: {
     extend: {
@@ -25,7 +25,7 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        first: "#E2FE53",
+        first: "#69CFF7",
         second: "#F3F4ED",
         third: "#bfdb30",
         popover: {
@@ -75,5 +75,5 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"),nextui()],
+  plugins: [require("tailwindcss-animate"), nextui()],
 };
