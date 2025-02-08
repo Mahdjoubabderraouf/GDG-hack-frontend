@@ -10,6 +10,8 @@ import {
 } from "@/components/ui/table";
 import { Button } from "@nextui-org/button";
 
+import { OpenModule } from "@/components/ui/modal";
+
 const initialData = [
   { taskName: "Task 1", assignedTo: "John Doe", status: "Done" },
   { taskName: "Task 2", assignedTo: "Jane Smith", status: "Done" },
@@ -70,25 +72,120 @@ function Comanager() {
   const paginatedData = sortedData.slice(startIndex, startIndex + itemsPerPage);
   const totalPages = Math.ceil(filteredData.length / itemsPerPage);
 
+  const handleAddTask = (newTask) => {
+    setFilteredData([...filteredData, newTask]);
+  };
+
   return (
     <main className="w-full p-3">
       <Header />
       <div className="pl-16 py-5 pr-3"></div>
-      <h3 className="pb-5">Track Tasks</h3>
+      <div className="flex justify-between px-12">
+        <h3 className="pb-7">Track Tasks</h3>
+        <OpenModule
+          btnName="Add Task"
+          Title="Add New Task"
+          Content={
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                const formData = new FormData(e.target);
+                const newTask = {
+                  taskName: formData.get("taskName"),
+                  assignedTo: formData.get("assignedTo"),
+                  status: "Pending",
+                };
+                handleAddTask(newTask);
+                e.target.reset();
+              }}
+            >
+              <div className="mb-4">
+                <label
+                  className="block text-sm font-bold mb-2"
+                  htmlFor="taskName"
+                >
+                  Task Name
+                </label>
+                <input
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  id="taskName"
+                  name="taskName"
+                  type="text"
+                  required
+                />
+              </div>
+              <div className="mb-4">
+                <label
+                  className="block text-sm font-bold mb-2"
+                  htmlFor="heavyTask"
+                >
+                  Task Importance (1 - 10)
+                </label>
+                <input
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  id="heavyTask"
+                  name="heavyTask"
+                  type="number"
+                  min="1"
+                  max="10"
+                  required
+                />
+              </div>
+
+              <div className="mb-4">
+                <label
+                  className="block text-sm font-bold mb-2"
+                  htmlFor="dueDate"
+                >
+                  Due Date
+                </label>
+                <input
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  id="dueDate"
+                  name="dueDate"
+                  type="date"
+                  required
+                />
+              </div>
+              <div className="mb-4">
+                <label
+                  className="block text-sm font-bold mb-2"
+                  htmlFor="assignedTo"
+                >
+                  Assigned To
+                </label>
+                <input
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  id="assignedTo"
+                  name="assignedTo"
+                  type="text"
+                  required
+                />
+              </div>
+
+              <div className="flex items-center justify-between">
+                <Button className="bg-first" type="submit">
+                  Add Task
+                </Button>
+              </div>
+            </form>
+          }
+          deleteAction={() => {}}
+        />
+      </div>
+
       <div className="px-12">
         <Table className="rounded-xl overflow-hidden">
           <TableHeader className="bg-first">
             <TableRow>
               <TableHead>
-                <span onClick={() => handleSort("taskName")}>Task Name</span>
+                <span>Task Name</span>
               </TableHead>
               <TableHead>
-                <span onClick={() => handleSort("assignedTo")}>
-                  Assigned to
-                </span>
+                <span>Assigned to</span>
               </TableHead>
               <TableHead>
-                <span onClick={() => handleSort("status")}>Task Status</span>
+                <span>Task Status</span>
               </TableHead>
             </TableRow>
           </TableHeader>
@@ -99,7 +196,6 @@ function Comanager() {
                 <TableCell className="text-center">{row.assignedTo}</TableCell>
                 <TableCell className="text-center">
                   <Button
-                    //green button if status is done, red if pending
                     className={`${
                       row.status === "Done" ? "bg-green-400" : "bg-red-500"
                     } ${row.status === "Done" ? "text-white" : "text-black"} `}

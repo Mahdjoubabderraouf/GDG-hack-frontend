@@ -29,7 +29,7 @@ function App() {
   return (
     <Active.Provider value={value}>
       <Routes>
-        <Route exact path="/" element={<MainRoute />} />
+        <Route path="/" element={<LoginPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/hrmanager" element={<Layout />}>
           <Route path="events" element={<Events />}></Route>
