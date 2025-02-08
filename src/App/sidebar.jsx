@@ -52,7 +52,7 @@ export default function AppSidebar() {
       role: "HR Manager",
       Links: [
         {
-          title: "Event",
+          title: "Events",
           icon: Search,
           url: "event",
         },
