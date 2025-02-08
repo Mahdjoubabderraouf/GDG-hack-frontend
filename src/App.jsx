@@ -5,6 +5,7 @@ import { createContext, useState, useMemo } from "react";
 import Layout from "./App/layout";
 import Events from "./App/events";
 import { HrTrackMembers } from "./App/HrTrackMembers";
+import AddEvent from "./App/AddEvent";
 
 export const Active = createContext();
 
@@ -30,8 +31,9 @@ function App() {
         <Route exact path="/" element={<MainRoute />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/hrmanager" element={<Layout />}>
-          <Route path="" element={<Events />} />
+          <Route path="event" element={<Events />} />
           <Route path="members" element={<HrTrackMembers />} />
+          <Route path="addEvent" element={<AddEvent />} />
         </Route>
       </Routes>
     </Active.Provider>
