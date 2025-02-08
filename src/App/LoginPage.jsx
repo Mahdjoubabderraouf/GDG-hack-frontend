@@ -54,11 +54,7 @@ function LoginPage() {
       localStorage.setItem("token", token);
 
       if (data.status.data.role == "veilleur") {
-        navigate("/veilleur/searching");
-      } else if (data.status.data.role == "decideur") {
-        navigate("/decideur");
-      } else if (data.status.data.role == "analyste") {
-        navigate("/analyste/analyzing");
+        navigate("/hrmanager");
       }
     } catch (error) {
       setMessage(error.message);
@@ -145,16 +141,6 @@ function LoginPage() {
               )}
             </form>
           </div>
-        </div>
-
-        <div className="hidden lg:flex items-center justify-center p-12">
-          <img
-            src={login}
-            alt="Monitoring Illustration"
-            width={450}
-            height={450}
-            className="dark:invert"
-          />
         </div>
       </div>
     </div>

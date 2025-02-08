@@ -9,15 +9,15 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-  SidebarHeader
+  SidebarHeader,
 } from "@/components/ui/sidebar";
-import TrackDns from "@/assets/TrackDns.svg";
+import logo from "@/assets/logo.png";
 
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { Active } from "@/App";
 
-export default function AppSidebar({ general }) {
+export default function AppSidebar() {
   const { activeItem, setActiveItem } = useContext(Active);
   const navigate = useNavigate();
 
@@ -27,12 +27,12 @@ export default function AppSidebar({ general }) {
   const HandleLogOut = async () => {
     try {
       const token = localStorage.getItem("token");
-      const response = await fetch("http://localhost:3000/users/sign_out", {
+      const response = await fetch("http://localhost:3000", {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `${token}`
-        }
+          Authorization: `${token}`,
+        },
       });
       if (!response.ok) {
         throw new Error("failed to logout");
@@ -54,14 +54,14 @@ export default function AppSidebar({ general }) {
         {
           title: "Event",
           icon: Search,
-          url: "event"
+          url: "event",
         },
         {
           title: "Track members",
           icon: FileText,
-          url: "members"
-        }
-      ]
+          url: "members",
+        },
+      ],
     },
     {
       role: "co-manager",
@@ -69,17 +69,17 @@ export default function AppSidebar({ general }) {
         {
           title: "Track membrs",
           icon: Search,
-          url: "#"
-        }
-      ]
-    }
+          url: "#",
+        },
+      ],
+    },
   ];
   return (
     <Sidebar className="text-black font-bold">
       <SidebarHeader className="pb-4 pt-5">
         <div className="flex items-center gap-2 px-2 ">
-          <img src={TrackDns} alt="logo" className="h-9 w-9" />
-          <span className="text-xl font-bold">TrackDNS</span>
+          <img src={logo} alt="logo" className="h-9 w-9" />
+          <span className="text-xl font-bold">GDGHR</span>
         </div>
       </SidebarHeader>
 
@@ -110,7 +110,7 @@ export default function AppSidebar({ general }) {
           </SidebarGroupContent>
         </SidebarGroup>
 
-        <SidebarGroup className="mt-4">
+        <SidebarGroup className="absolute bottom-10">
           <SidebarGroupContent>
             <SidebarMenu>
               <SidebarMenuItem>

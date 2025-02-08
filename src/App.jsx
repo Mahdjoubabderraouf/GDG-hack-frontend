@@ -1,8 +1,9 @@
 import "./App.css";
 import LoginPage from "./App/LoginPage";
 import { Route, Routes } from "react-router-dom";
-import { createContext, useState } from "react";
+import { createContext, useState, useMemo } from "react";
 import Layout from "./App/layout";
+import { HrTrackMembers } from "./App/HrTrackMembers";
 
 export const Active = createContext();
 
@@ -16,15 +17,20 @@ const MainRoute = () => {
 };
 
 function App() {
-  const [activeItem, setActiveItem] = useState("Searching");
+  const [activeItem, setActiveItem] = useState("Event");
+  const value = useMemo(
+    () => ({ activeItem, setActiveItem }),
+    [activeItem, setActiveItem]
+  );
+
   return (
-    <Active.Provider value={{ activeItem, setActiveItem }}>
+    <Active.Provider value={value}>
       <Routes>
         <Route exact path="/" element={<MainRoute />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/hrmanager" element={<Layout />}>
           <Route path="event" element={<div>First div of hr</div>} />
-          <Route path="members" element={<div>Second div of hr</div>} />
+          <Route path="members" element={<HrTrackMembers />} />
         </Route>
       </Routes>
     </Active.Provider>

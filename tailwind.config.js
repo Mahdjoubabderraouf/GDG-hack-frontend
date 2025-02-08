@@ -27,7 +27,7 @@ export default {
         },
         first: "#69CFF7",
         second: "#F3F4ED",
-        third: "#bfdb30",
+        third: "#A3E4FF",
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",

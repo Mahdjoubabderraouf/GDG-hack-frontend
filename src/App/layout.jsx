@@ -12,7 +12,7 @@ export default function Layout() {
       <AppSidebar />
       <main className="w-full">
         <Header />
-        <div className="pl-16 py-5 pr-3">
+        <div className="pl-14 py-5 pr-10">
           <Outlet />
         </div>
       </main>
