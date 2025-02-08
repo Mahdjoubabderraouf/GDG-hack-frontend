@@ -9,7 +9,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-  SidebarHeader
+  SidebarHeader,
 } from "@/components/ui/sidebar";
 import TrackDns from "@/assets/TrackDns.svg";
 
@@ -31,8 +31,8 @@ export default function AppSidebar({ general }) {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `${token}`
-        }
+          Authorization: `${token}`,
+        },
       });
       if (!response.ok) {
         throw new Error("failed to logout");
@@ -54,14 +54,14 @@ export default function AppSidebar({ general }) {
         {
           title: "Event",
           icon: Search,
-          url: "event"
+          url: "event",
         },
         {
           title: "Track members",
           icon: FileText,
-          url: "members"
-        }
-      ]
+          url: "members",
+        },
+      ],
     },
     {
       role: "co-manager",
@@ -69,10 +69,10 @@ export default function AppSidebar({ general }) {
         {
           title: "Track membrs",
           icon: Search,
-          url: "#"
-        }
-      ]
-    }
+          url: "#",
+        },
+      ],
+    },
   ];
   return (
     <Sidebar className="text-black font-bold">
