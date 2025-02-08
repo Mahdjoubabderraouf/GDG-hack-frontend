@@ -14,7 +14,12 @@ import Filter from "@/components/ui/Filter";
 
 function HrTrackMembers() {
   const [sortConfig, setSortConfig] = useState(null);
-  const [filteredData, setFilteredData] = useState([]);
+  const [filteredData, setFilteredData] = useState([
+    { fullName: "John Doe", ghostedTasks: 2, doneTasks: 5, score: 85 },
+    { fullName: "Jane Smith", ghostedTasks: 1, doneTasks: 6, score: 90 },
+    { fullName: "Alice Johnson", ghostedTasks: 0, doneTasks: 7, score: 100 },
+    { fullName: "John Doe", ghostedTasks: 2, doneTasks: 5, score: 85 },
+  ]);
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 7;
   const { activeItem, setActiveItem } = useContext(Active);
