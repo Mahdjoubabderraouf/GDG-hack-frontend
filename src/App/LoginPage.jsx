@@ -18,48 +18,45 @@ function LoginPage() {
 
   const handleLogin = async (event) => {
     event.preventDefault();
-  
+
     if (!email || !password) {
       setMessage("Please enter your credentials");
       return;
     }
-  
+
     try {
       setMessage("");
       setLoading(true);
-  
-      const response = await fetch("http://localhost:3000/api/auth/login", {
+
+      const response = await fetch("http://localhost:5050/api/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({ email, password }),
       });
-  
+
       const data = await response.json();
+      console.log(data);
+
       setLoading(false); // Ensure loading state is reset
-  
+
       if (!response.ok) {
         throw new Error(data.error || "Invalid email or password");
       }
-  
+
       localStorage.setItem("token", data.token);
 
-      
-  
       if (data.user.role === "co-manager") {
         navigate("/comanager");
       } else if (data.user.role === "hr") {
-        navigate("/hrmanager");
-      } else {
-        navigate("/dashboard"); // Default redirection
+        navigate("/hrmanager/events");
       }
     } catch (error) {
       setLoading(false);
       setMessage(error.message);
     }
   };
-  
 
   return (
     <div className="flex min-h-screen items-center justify-center">
@@ -109,13 +106,20 @@ function LoginPage() {
                   </button>
                 </div>
                 <div className="text-right">
-                  <a href="/forgot-password" className="text-sm font-bold hover:underline">
+                  <a
+                    href="/forgot-password"
+                    className="text-sm font-bold hover:underline"
+                  >
                     Forgot Password?
                   </a>
                 </div>
               </div>
               {message && <p className="text-sm text-red-500">{message}</p>}
-              <Button type="submit" disabled={loading} className="w-full bg-first text-black font-semibold">
+              <Button
+                type="submit"
+                disabled={loading}
+                className="w-full bg-first text-black font-semibold"
+              >
                 {loading ? (
                   <>
                     <Loader2 className="animate-spin" /> Please wait

@@ -27,7 +27,7 @@ export default function AppSidebar() {
   const HandleLogOut = async () => {
     try {
       const token = localStorage.getItem("token");
-      const response = await fetch("http://localhost:3000", {
+      const response = await fetch("http://localhost:5050/logout", {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",

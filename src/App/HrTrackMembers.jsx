@@ -12,20 +12,9 @@ import { ArrowUpDown } from "lucide-react";
 import { Active } from "@/App";
 import Filter from "@/components/ui/Filter";
 
-const initialData = [
-  { fullName: "John Doe", ghostedTasks: 2, doneTasks: 10, score: 85 },
-  { fullName: "Jane Smith", ghostedTasks: 1, doneTasks: 15, score: 92 },
-  {
-    fullName: "Alice Johnson",
-    ghostedTasks: 3,
-    doneTasks: 8,
-    score: 78,
-  },
-];
-
 function HrTrackMembers() {
   const [sortConfig, setSortConfig] = useState(null);
-  const [filteredData, setFilteredData] = useState(initialData);
+  const [filteredData, setFilteredData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 7;
   const { activeItem, setActiveItem } = useContext(Active);
@@ -38,9 +27,35 @@ function HrTrackMembers() {
     return 0;
   });
 
+  const fetchData = async () => {
+    try {
+      const token = localStorage.getItem("token");
+      const response = await fetch("http://localhost:5050/", {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: token, // Add the Authorization header
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      console.log(data.name);
+      console.log(data.name);
+      setUser(data.name);
+      setRole(data.role);
+    } catch (error) {
+      console.error("Error fetching name:", error);
+    }
+  };
+
   useEffect(() => {
     if (activeItem !== "Track members") {
       setActiveItem("Track members");
+      fetchData();
     }
   }, []);
 

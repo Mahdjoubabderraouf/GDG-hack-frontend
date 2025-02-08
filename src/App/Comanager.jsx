@@ -11,6 +11,7 @@ import {
 import { Button } from "@nextui-org/button";
 
 import { OpenModule } from "@/components/ui/modal";
+import { LogOut } from "lucide-react";
 
 const initialData = [
   { taskName: "Task 1", assignedTo: "John Doe", status: "Done" },
@@ -77,7 +78,7 @@ function Comanager() {
   };
 
   return (
-    <main className="w-full p-3">
+    <main className="w-full p-3 relative">
       <Header />
       <div className="pl-16 py-5 pr-3"></div>
       <div className="flex justify-between px-12">
@@ -227,6 +228,10 @@ function Comanager() {
           ))}
         </div>
       </div>
+      <button className="absolute bottom-[-20px] left-5 bg-first text-white px-3 py-1 rounded-lg">
+        <LogOut className="h-5 w-5" />
+        <span>Log Out</span>
+      </button>
     </main>
   );
 }
