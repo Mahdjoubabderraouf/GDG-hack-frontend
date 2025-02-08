@@ -1,6 +1,10 @@
 import { Button } from "@nextui-org/button";
 import SearchInput from "../components/ui/SearchInput";
 import { Plus } from "lucide-react";
+import { Active } from "@/App";
+import { useContext, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
 const events = () => {
   const hackathons = [
     { id: 1, name: "Hackathon 1", img: "https://via.placeholder.com/150" },
@@ -8,13 +12,27 @@ const events = () => {
     { id: 3, name: "Hackathon 3", img: "https://via.placeholder.com/150" },
     { id: 4, name: "Hackathon 4", img: "https://via.placeholder.com/150" },
     { id: 5, name: "Hackathon 5", img: "https://via.placeholder.com/150" },
-    { id: 6, name: "Hackathon 6", img: "https://via.placeholder.com/150" }
+    { id: 6, name: "Hackathon 6", img: "https://via.placeholder.com/150" },
   ];
+
+  const navigate = useNavigate();
+
+  const { activeItem, setActiveItem } = useContext(Active);
+  useEffect(() => {
+    if (activeItem !== "Events") {
+      setActiveItem("Events");
+    }
+  }, []);
   return (
     <>
       <div className="flex gap-5 items-center">
         <SearchInput />
-        <Button className="bg-first">
+        <Button
+          onClick={() => {
+            navigate("/hrmanager/addEvent");
+          }}
+          className="bg-first"
+        >
           <span>Add</span>
           <Plus />
         </Button>

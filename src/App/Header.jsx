@@ -1,4 +1,3 @@
-import { SidebarTrigger } from "@/components/ui/sidebar";
 import React, { useState, useEffect } from "react";
 import notification from "@/assets/notification.svg";
 import { Button } from "@/components/ui/button";
@@ -18,8 +17,8 @@ function Header() {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
-            Authorization: token // Add the Authorization header
-          }
+            Authorization: token, // Add the Authorization header
+          },
         });
 
         if (!response.ok) {
@@ -42,7 +41,6 @@ function Header() {
   return (
     <div className="flex p-2 gap-5 items-center w-full justify-between border-b-2 border-second">
       <div className="flex flex-1 gap-5 items-center justify-between">
-        <SidebarTrigger />
         <div className="flex-1">
           <h1 className="text-2xl">Welcome {user}</h1>
         </div>

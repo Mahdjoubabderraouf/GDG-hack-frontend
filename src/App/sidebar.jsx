@@ -54,7 +54,7 @@ export default function AppSidebar() {
         {
           title: "Events",
           icon: Search,
-          url: "event",
+          url: "events",
         },
         {
           title: "Track members",

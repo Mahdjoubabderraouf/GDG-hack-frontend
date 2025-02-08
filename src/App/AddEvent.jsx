@@ -21,8 +21,12 @@ export default function AddEvent() {
     console.log("Form submitted with data:", payload);
   };
 
+  const handleFileClick = (ref) => {
+    if (ref.current) ref.current.click();
+  };
+
   return (
-    <form onSubmit={handleSubmit} className="min-h-full w-full m-3 p-5 ">
+    <form onSubmit={handleSubmit} className="min-h-full w-full m-3 p-5">
       <label htmlFor="serverId">
         <h3>Server ID</h3>
       </label>
@@ -52,17 +56,19 @@ export default function AddEvent() {
           />
         </div>
         <div className="w-1/2 mx-2 my-6">
-          <label htmlFor="eventLogo">
+          <label>
             <h3>Event Logo</h3>
           </label>
-          <div className="w-full rounded-full h-12 bg-[#69CFF7] flex items-center px-2">
+          <div
+            className="w-full rounded-full h-12 bg-[#69CFF7] flex items-center justify-center px-4 cursor-pointer text-white font-bold"
+            onClick={() => handleFileClick(eventLogoRef)}
+          >
+            Upload Logo
             <input
               ref={eventLogoRef}
-              id="eventLogo"
-              name="eventLogo"
               type="file"
               accept="image/*"
-              className="w-full"
+              className="hidden"
             />
           </div>
         </div>
@@ -70,33 +76,36 @@ export default function AddEvent() {
 
       <div className="flex flex-row">
         <div className="w-1/2 mx-2 my-6">
-          <label htmlFor="members">
+          <label>
             <h3>Members</h3>
           </label>
-          <div className="w-full rounded-full h-12 bg-[#69CFF7] flex items-center px-2">
+          <div
+            className="w-full rounded-full h-12 bg-[#69CFF7] flex items-center justify-center px-4 cursor-pointer text-white font-bold"
+            onClick={() => handleFileClick(membersRef)}
+          >
+            Upload Members
             <input
               ref={membersRef}
-              id="members"
-              name="members"
               type="file"
               accept=".xls, .xlsx"
-              className="w-full"
+              className="hidden"
             />
           </div>
         </div>
         <div className="w-1/2 mx-2 my-6">
-          <label htmlFor="managers">
+          <label>
             <h3>Managers</h3>
           </label>
-          <div className="w-full rounded-full h-12 bg-[#69CFF7] flex items-center px-2">
+          <div
+            className="w-full rounded-full h-12 bg-[#69CFF7] flex items-center justify-center px-4 cursor-pointer text-white font-bold"
+            onClick={() => handleFileClick(managersRef)}
+          >
+            Upload Managers
             <input
               ref={managersRef}
-              id="managers"
-              name="managers"
               type="file"
               accept=".xls, .xlsx"
-              className="w-full"
-              
+              className="hidden"
             />
           </div>
         </div>
@@ -104,7 +113,7 @@ export default function AddEvent() {
 
       <div className="flex justify-center w-full pt-8">
         <button
-          className="h-10 w-36 bg-[#0DE27B] rounded-full border-2 border-black font-bold"
+          className="h-10 w-36 bg-[#0DE27B] rounded-full border-2 text-white font-bold"
           type="submit"
         >
           Submit

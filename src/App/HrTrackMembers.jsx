@@ -26,6 +26,8 @@ const initialData = [
 function HrTrackMembers() {
   const [sortConfig, setSortConfig] = useState(null);
   const [filteredData, setFilteredData] = useState(initialData);
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 7;
   const { activeItem, setActiveItem } = useContext(Active);
 
   const sortedData = [...filteredData].sort((a, b) => {
@@ -37,7 +39,7 @@ function HrTrackMembers() {
   });
 
   useEffect(() => {
-    if (setActiveItem) {
+    if (activeItem !== "Track members") {
       setActiveItem("Track members");
     }
   }, []);
@@ -61,6 +63,14 @@ function HrTrackMembers() {
 
     setFilteredData(filtered);
   };
+
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  };
+
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const paginatedData = sortedData.slice(startIndex, startIndex + itemsPerPage);
+  const totalPages = Math.ceil(filteredData.length / itemsPerPage);
 
   return (
     <>
@@ -108,9 +118,11 @@ function HrTrackMembers() {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {sortedData.map((row, index) => (
-            <TableRow className="bg-sidebar" key={row.id}>
-              <TableCell className="text-center">{index + 1}</TableCell>
+          {paginatedData.map((row, index) => (
+            <TableRow className="bg-sidebar" key={index}>
+              <TableCell className="text-center">
+                {startIndex + index + 1}
+              </TableCell>
               <TableCell className="text-center">{row.fullName}</TableCell>
               <TableCell className="text-center">{row.ghostedTasks}</TableCell>
               <TableCell className="text-center">{row.doneTasks}</TableCell>
@@ -119,6 +131,21 @@ function HrTrackMembers() {
           ))}
         </TableBody>
       </Table>
+      <div className="pagination flex justify-center mt-4">
+        {Array.from({ length: totalPages }, (_, index) => (
+          <button
+            key={index}
+            onClick={() => handlePageChange(index + 1)}
+            className={`mx-1 px-3 py-1 border rounded ${
+              currentPage === index + 1
+                ? "bg-first text-white"
+                : "bg-white text-first"
+            }`}
+          >
+            {index + 1}
+          </button>
+        ))}
+      </div>
     </>
   );
 }
